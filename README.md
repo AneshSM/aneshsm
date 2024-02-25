@@ -1,4 +1,3 @@
-![1642320423853](https://cdn1.picuki.com/hosted-by-instagram/q/0exhNuNYnjBGZDHIdN5WmL9I2Pk2GAlRNecaS7j0nyZiNxIsbHWB58ltwdGn%7C%7CDh6Kwh9HS+LfT1h7Y0uWF5QZFRzNUXXS7yNSztc766bU4Ck0DVg9JFilLk0LXYYYX6p9sAkOzjYMTIfQeoEH%7C%7Cbx7a8Koru5A2MGoyX9auctwCIPuM23TKNy2JAtrKSLl0SxptV%7C%7CIjNLvG0jJ00m7NPfvnw1UvfPMc9g+PAnE%7C%7CEzhMQ65OftxnehNnowcV9SRxSUm7P+zt4VtAiucTE1pkCXeJ9qf2k8oHSallAysY5z38j3coJlhK5ojoHRbjEFXGRGsQNeopeUnyfeYUOZhkBY4kaG8LuiQsQOhJrhI9uaat7t5GzoWqaYG74RCy8rJqr1cgeaH%7C%7Cu1ONtQktYdRaEX1QY=.jpeg)
 <h1 align="center">Hi, I'm Anesh</h1>
 <h3 align="center">A passionate full stack developer</h3>
 
@@ -55,3 +54,5 @@
 ![FireBase](https://img.shields.io/badge/Firebase-%23000000.svg?style=for-the-badge&logo=Firebase&logoColor=yellow) 
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=green) 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aneshsm&theme=dark&hide_border=false&include_all_commits=false&count_private=false&show_icons=true&locale=en&layout=compact" alt="aneshsm" /> <img align="center" src="https://github-readme-stats.vercel.app/api?username=aneshsm&theme=dark&hide_border=false&show_icons=true&locale=en" alt="aneshsm" /></p>
+
+![1642320423853](https://cdn1.picuki.com/hosted-by-instagram/q/0exhNuNYnjBGZDHIdN5WmL9I2Pk2GAlRNecaS7j0nyZiNxIsbHWB58ltwdGn%7C%7CDh6Kwh9HS+LfT1h7Y0uWF5QZFRzNUXXS7yNSztc766bU4Ck0DVg9JFilLk0LXYYYX6p9sAkOzjYMTIfQeoEH%7C%7Cbx7a8Koru5A2MGoyX9auctwCIPuM23TKNy2JAtrKSLl0SxptV%7C%7CIjNLvG0jJ00m7NPfvnw1UvfPMc9g+PAnE%7C%7CEzhMQ65OftxnehNnowcV9SRxSUm7P+zt4VtAiucTE1pkCXeJ9qf2k8oHSallAysY5z38j3coJlhK5ojoHRbjEFXGRGsQNeopeUnyfeYUOZhkBY4kaG8LuiQsQOhJrhI9uaat7t5GzoWqaYG74RCy8rJqr1cgeaH%7C%7Cu1ONtQktYdRaEX1QY=.jpeg)
