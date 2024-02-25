@@ -20,13 +20,6 @@
 <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anesh-somanath-majalikar-13666b222" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/anesh-soamanath-majalikar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="anesh-soamanath-majalikar" height="30" width="40" /></a>
 <a href="https://codesandbox.com/aneshsm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="aneshsm" height="30" width="40" /></a>
-<a href="https://instagram.com/aneshsm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="aneshsm" height="30" width="40" /></a>
-<a href="https://medium.com/@aneshsm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@aneshsm" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/aneshsm2002" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="aneshsm2002" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/aneshsm204" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="aneshsm204" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/@aneshsm204" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@aneshsm204" height="30" width="40" /></a>
-</p>
-
 
 <h3 align="left">Languages and Tools:</h3>
 
