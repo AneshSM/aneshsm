@@ -2,7 +2,7 @@
 <h3 align="center">A passionate full stack developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aneshsm&label=Profile%20views&color=0e75b6&style=flat" alt="aneshsm" /> </p>
-<img align="right" alt="Web filter won't allow ;( " width="400" src="https://scontent.cdninstagram.com/v/t51.29350-15/192039033_940239880141602_7769637873861636989_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDExMTAuc2RyLmYyOTM1MCJ9&_nc_ht=scontent.cdninstagram.com&_nc_cat=106&_nc_ohc=Q9V5rVQhVu8Ab56whu4&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjU4MjkyNDA2OTU4NzI4ODYzOQ%3D%3D.2-ccb7-5&oh=00_AfDpMMjF6AinwtcZyJ-yo_5yf1tlAC57CIYvatrJrVIc2g&oe=6627C3F5&_nc_sid=10d13b">
+
 - 🌱 I’m currently learning **React.js, Node.js and Express.js**
 
 - 💬 Ask me about **Full stack**
@@ -48,5 +48,3 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aneshsm&theme=dark&hide_border=false&include_all_commits=false&count_private=false&show_icons=true&locale=en&layout=compact" alt="Web filter won't allow ;(" /> <img align="center" src="https://github-readme-stats.vercel.app/api?username=aneshsm&theme=dark&hide_border=false&show_icons=true&locale=en" alt="Web filter won't allow ;(" /></p>
 
-
-![Web filter won't allow ;(](https://scontent.cdninstagram.com/v/t51.29350-15/121965930_699082857481337_6306063060037486138_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDg4My5zZHIuZjI5MzUwIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=ODpR76px5cwAb62V8FG&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjQyMjQ4MjE1Mzg2OTA2MDMwNg%3D%3D.2-ccb7-5&oh=00_AfBl3QthhSNfrqX_cNqGUzEtEhn7K7vKJYe6gYfP6plPSg&oe=6629A522&_nc_sid=10d13b)
