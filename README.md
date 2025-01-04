@@ -1,50 +1,90 @@
-<h1 align="center">Hi, I'm Anesh</h1>
-<h3 align="center">A passionate full stack developer</h3>
+# Anesh SM - Full Stack Developer
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aneshsm&label=Profile%20views&color=0e75b6&style=flat" alt="aneshsm" /> </p>
+Welcome to my GitHub profile!
+<p>
+  I’m a Full Stack Developer passionate about building scalable, efficient, and performance-driven applications. I specialize in creating seamless user experiences and robust backend systems, always striving to learn and apply cutting-edge technologies.
+</p>
 
-- 🌱 I’m currently learning **React.js, Node.js and Express.js**
 
-- 💬 Ask me about **Full stack**
+## 🔧 **Technologies & Tools**
 
-- 📫 How to reach me **aneshsm@gmail.com**
+### **Languages**
+ ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+ ![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+ ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+ ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-- ⚡ Fun fact **I like to sketch** 👉 <a href="https://www.instagram.com/arto.beginner" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="aneshsm" height="20" width="30" /></a>
+### **Frontend**
+![React](https://img.shields.io/badge/React-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
+ ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+ ![Redux](https://img.shields.io/badge/Redux-764ABC.svg?style=for-the-badge&logo=redux&logoColor=white)
+ ![Material-UI](https://img.shields.io/badge/Material--UI-0081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
+ ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-<h3 align="left">Connect with me:</h3>
+### **Backend**
+ ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
+ ![Express.js](https://img.shields.io/badge/Express.js-404D59.svg?style=for-the-badge&logo=express&logoColor=white)
+
+### **Databases**
+ ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+ ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### **DevOps**
+ ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+ ![Git](https://img.shields.io/badge/Git-F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+ ![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
+
+
+
+## 📊 **GitHub Stats**
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aneshsm&theme=dark&hide_border=true&show_icons=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aneshsm&theme=dark&hide_border=true&layout=compact)
+
+
+
+## 🚀 **What I Do Best**
+- **Building Scalable Applications**: From architecture to deployment, I ensure your applications are efficient and can handle growth.
+- **API Development**: I specialize in designing robust, scalable APIs with Node.js and Express.js.
+- **Frontend Magic**: I create responsive, dynamic, and interactive UIs using React and other modern frameworks.
+- **Optimizing Performance**: Whether it's improving loading times or reducing resource consumption, performance is always a top priority.
+
+
+
+## 📫 **Let’s Connect**
 <p align="left">
-<a href="https://codepen.io/aneshsm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="aneshsm" height="30" width="40" /></a>
-<a href="https://dev.to/aneshsm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="aneshsm" height="30" width="40" /></a>
-<a href="https://twitter.com/anesh_sm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="anesh_sm" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anesh-somanath-majalikar-13666b222" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/anesh-soamanath-majalikar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="anesh-soamanath-majalikar" height="30" width="40" /></a>
-<a href="https://codesandbox.com/aneshsm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="aneshsm" height="30" width="40" /></a>
+  <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://twitter.com/anesh_sm" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="https://dev.to/aneshsm" target="_blank">
+    <img src="https://img.shields.io/badge/Dev.to-0A0A0A.svg?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/>
+  </a>
+  <a href="https://codepen.io/aneshsm" target="_blank">
+    <img src="https://img.shields.io/badge/CodePen-000000.svg?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen"/>
+  </a>
+  <a href="https://stackoverflow.com/users/anesh-soamanath-majalikar" target="_blank">
+    <img src="https://img.shields.io/badge/Stack%20Overflow-F58025.svg?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow"/>
+  </a>
+  <a href="https://codesandbox.io/u/aneshsm" target="_blank">
+    <img src="https://img.shields.io/badge/CodeSandbox-00C7B7.svg?style=for-the-badge&logo=codesandbox&logoColor=white" alt="CodeSandbox"/>
+  </a>
+</p>
 
-<h3 align="left">Languages and Tools:</h3>
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Git](https://img.shields.io/badge/Git-F24E1E?style=for-the-badge&logo=git&logoColor=white) 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) 
-![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=red) 
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) 
-![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) 
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%230081CB.svg?style=for-the-badge&logo=Tailwind%20CSS&logoColor=cyan) 
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) 
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
-![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black) 
-![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) 
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
-![FireBase](https://img.shields.io/badge/Firebase-%23000000.svg?style=for-the-badge&logo=Firebase&logoColor=yellow) 
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=green) 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aneshsm&theme=dark&hide_border=false&include_all_commits=false&count_private=false&show_icons=true&locale=en&layout=compact" alt="Web filter won't allow ;(" /> <img align="center" src="https://github-readme-stats.vercel.app/api?username=aneshsm&theme=dark&hide_border=false&show_icons=true&locale=en" alt="Web filter won't allow ;(" /></p>
+## 🏆 **What Drives Me**
+- **Continuous Learning**: The tech world is always evolving, and I’m committed to keeping up with the latest trends and best practices.
+- **Problem Solving**: Whether it's debugging an issue or designing a new feature, I love solving problems with clean and efficient code.
 
+
+
+## 🎨 **Hobbies**
+Aside from coding, I enjoy expressing my creativity through art. Check out some of my sketches and artwork on Instagram!
+<p>
+  👉<a href="https://www.instagram.com/arto.beginner" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="aneshsm" height="20" width="30" /></a>
+</p>
+
+---
+Thank you for visiting my profile! Feel free to explore my repositories, ask questions, or reach out for collaborations.
