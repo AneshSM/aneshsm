@@ -128,6 +128,9 @@ Responsive Design,Mobile-first Design
 - **Continuous Learning**: The tech world is always evolving, and I’m committed to keeping up with the latest trends and best practices.
 - **Problem Solving**: Whether it's debugging an issue or designing a new feature, I love solving problems with clean and efficient code.
 
+Thank you for visiting my profile! Feel free to explore my repositories, ask questions, or reach out for collaborations.
+---
+
 ## 🎨 **Hobbies**
 
 Aside from coding, I enjoy expressing my creativity through art. Check out some of my sketches and artwork on Instagram!
@@ -136,6 +139,3 @@ Aside from coding, I enjoy expressing my creativity through art. Check out some 
   👉<a href="https://www.instagram.com/arto.beginner" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="aneshsm" height="20" width="30" /></a>
 </p>
 
----
-
-Thank you for visiting my profile! Feel free to explore my repositories, ask questions, or reach out for collaborations.
