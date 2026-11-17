@@ -64,6 +64,22 @@ Responsive & Mobile-First Design
 
 ---
 
+## 🗂️ **Archived Projects**
+
+Earlier explorations, now archived and kept for reference:
+
+| Project | What it explored |
+|---|---|
+| [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya) | College major project: React Native patient app for an Ayurvedic hospital |
+| [backend-js-template](https://github.com/AneshSM/backend-js-template) | Minimal production-ready Express.js (ESM) backend template |
+| [express-typescript-setup](https://github.com/AneshSM/express-typescript-setup) | Express + TypeScript boilerplate |
+| [restful_API-PostgreSQL_Prisma](https://github.com/AneshSM/restful_API-PostgreSQL_Prisma) | REST API with Express, TypeScript, Prisma and PostgreSQL |
+| [restful_API-PostgreSQL_Sequelize](https://github.com/AneshSM/restful_API-PostgreSQL_Sequelize) | The same REST API on Sequelize, to compare ORMs |
+| [vite-react_ts-mui-setup](https://github.com/AneshSM/vite-react_ts-mui-setup) | Vite + React + TypeScript + Material UI starter |
+| [ReactJS-Projects](https://github.com/AneshSM/ReactJS-Projects) | Learning React through small projects |
+
+---
+
 ## 📈 **GitHub Stats**
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aneshsm&theme=dark&hide_border=true&show_icons=true)
