@@ -2,7 +2,7 @@
 
 # Anesh SM
 
-**Full Stack Developer · PERN Stack · Qlik Sense and Power BI**
+**Full Stack Developer · PERN stack · Qlik Sense and Power BI**
 
 I build SaaS applications, developer tools, and AI-assisted workflows.<br>
 I care about performance, security, and clean architecture.
@@ -20,7 +20,7 @@ I care about performance, security, and clean architecture.
 
 ## About me
 
-I'm a Full Stack Developer who works with the PERN stack: PostgreSQL, Express, React, and Node.js. Most of my work is on SaaS platforms and developer tools, and lately on AI-assisted ways of building them.
+I'm a Full Stack Developer. I work with the PERN stack, which is PostgreSQL, Express, React, and Node.js, and I write most of my code in TypeScript. I also set up AI coding tools, such as Claude Code skills and review agents, for the teams I work with.
 
 ## What I work on
 
@@ -28,7 +28,7 @@ I'm a Software Engineer on a SaaS platform that gives Qlik Sense and Power BI te
 
 | Area | What I do |
 |---|---|
-| Versioning for BI apps | Git-style branches, compare, and merge with approval |
+| Versioning for BI apps | Git-style branches, diffs, and merges that a manager approves |
 | BI integrations | Qlik Sense Enterprise, Qlik SaaS, and Power BI |
 | Migration | A Qlik to Power BI flow whose output opens in Power BI Desktop |
 | Security | Payload encryption, encrypted secrets, and fixes for pen-test findings |
@@ -48,7 +48,7 @@ I'm a Software Engineer on a SaaS platform that gives Qlik Sense and Power BI te
 
 <img src="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,tailwind" alt="TypeScript, JavaScript, React, Vite, Material UI, Tailwind CSS" />
 
-React Router, responsive and mobile-first design
+React Router, React Hook Form. I design responsive, mobile-first layouts.
 
 ### Backend and data
 
@@ -72,7 +72,7 @@ REST APIs, JWT auth, OAuth and SSO, WebSockets
 
 - React Query and Zustand for state and data management
 - Docker, CI/CD, and Nginx for deployment
-- AI assistants built with RAG and open-source LLMs
+- AI assistants built with retrieval-augmented generation (RAG) and open-source LLMs
 - Next.js, edge functions, and serverless
 
 <details>
