@@ -1,93 +1,142 @@
 <div align="center">
 
-# Anesh SM
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/banner-dark.svg" />
+  <img src="profile-assets/banner-light.svg" alt="Anesh Somanath Majalikar, Software Engineer, full stack (PERN). Version control, deployment and migration for Qlik Sense and Power BI teams." width="100%" />
+</picture>
 
-**Full Stack Developer · PERN stack · Qlik Sense and Power BI**
-
-I build SaaS applications, developer tools, and AI-assisted workflows.<br>
-I care about performance, security, and clean architecture.
+<br><br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/anesh-somanath-majalikar-13666b222)
-[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/anesh_sm)
 [![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/aneshsm)
-[![CodePen](https://img.shields.io/badge/CodePen-000000?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/aneshsm)
-[![CodeSandbox](https://img.shields.io/badge/CodeSandbox-151515?style=flat-square&logo=codesandbox&logoColor=white)](https://codesandbox.io/u/aneshsm)
-[![Instagram art](https://img.shields.io/badge/Art-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/arto.beginner)
 
 </div>
 
----
+I joined SenseOps as an intern in February 2023. Eight months later I rebuilt our server-rendered Handlebars app as a React and Node.js codebase, and that codebase still runs the product: a SaaS platform that gives Qlik Sense and Power BI teams version control, deployment and migration.
 
-## About me
+Three years on, I own its architecture, its versioning core and its platform adapters. I also set up and run the team's Claude Code workspace. I write most of my code in TypeScript on the PERN stack (PostgreSQL, Express, React, Node.js).
 
-I'm a Full Stack Developer. I work with the PERN stack, which is PostgreSQL, Express, React, and Node.js, and I write most of my code in TypeScript. I also set up AI coding tools, such as Claude Code skills and review agents, for the teams I work with.
+## The journey
 
-## What I work on
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'cScale0': '#0f766e', 'cScale1': '#0d9488', 'cScale2': '#059669', 'cScale3': '#047857', 'cScaleLabel0': '#ffffff', 'cScaleLabel1': '#ffffff', 'cScaleLabel2': '#ffffff', 'cScaleLabel3': '#ffffff'}}}%%
+timeline
+    2023 : Joined SenseOps as an intern
+         : Rebuilt the Handlebars app in React and Node.js
+         : Git-style branches and merges for Qlik apps
+    2024 : Qlik Enterprise and Qlik SaaS support
+         : First cloud backup, structured logging
+    2025 : Worker-thread commits with crash recovery
+         : Opt-in regression snapshots per app
+    2026 : Power BI joins the platform
+         : Qlik to Power BI migration flow
+         : The team's Claude Code workspace
+```
 
-I'm a Software Engineer on a SaaS platform that gives Qlik Sense and Power BI teams version control, deployment, and migration. I joined as an intern in 2023 and built the React and Node.js codebase that the platform runs on today.
+## What I build
 
-| Area | What I do |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**Versioning for BI apps**
+
+Repositories, branches, compare and merge for Qlik and Power BI apps, with a manager approving each change before it's promoted.
+
+</td>
+<td width="33%" valign="top">
+
+**Platform adapters**
+
+Qlik Enterprise, Qlik SaaS and Power BI behind a single dispatch, with Fabric extraction, Entra sign-in and embedded reports.
+
+</td>
+<td width="33%" valign="top">
+
+**Migration**
+
+The Qlik to Power BI flow in our team's Migrator, producing PBIP projects that open cleanly in Power BI Desktop.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Security**
+
+AES-256-GCM payload encryption, secrets encrypted at rest and masked in the API, nonce-bound sign-in, identity taken from the token.
+
+</td>
+<td valign="top">
+
+**Reliability**
+
+Worker threads, retry and backoff, scheduled jobs, and housekeeping that quarantines, purges and restores stale apps.
+
+</td>
+<td valign="top">
+
+**AI tooling**
+
+The team's Claude Code setup: rules, skills, review agents, git hooks and browser checks with Playwright MCP.
+
+</td>
+</tr>
+</table>
+
+## How versioning works
+
+```mermaid
+%%{init: {'theme': 'base', 'gitGraph': {'mainBranchName': 'main', 'rotateCommitLabel': false}, 'themeVariables': {'git0': '#0f766e', 'git1': '#10b981', 'gitBranchLabel0': '#ffffff', 'gitBranchLabel1': '#ffffff', 'commitLabelColor': '#134e4a', 'commitLabelBackground': '#ccfbf1', 'tagLabelColor': '#ffffff', 'tagLabelBackground': '#047857', 'tagLabelBorder': '#047857'}}}%%
+gitGraph
+    commit id: "extract"
+    branch feature
+    checkout feature
+    commit id: "sheets"
+    commit id: "script"
+    checkout main
+    commit id: "teammate"
+    merge feature tag: "manager approves"
+    commit id: "promote"
+```
+
+A developer branches a Qlik or Power BI app and commits changes to it. The server compares the branch with its parent item by item (sheets, scripts, measures, report files), and a manager approves the merge against the latest destination commit before the change is promoted.
+
+## Lessons from production
+
+- **Browser-run user sync was unsafe.** A dropped connection could leave users half-deactivated, and an empty or failed fetch could deactivate everyone. I moved sync to the server, with guards and a log the client polls.
+- **Power BI Desktop is stricter than the schema.** It refused our migration output over one-way one-to-one relationships. I fixed the cause and added a shape check against Desktop-saved samples to the pre-commit hook.
+- **Secrets need a marker.** Legacy plaintext and ciphertext looked the same in the database, so stored secrets now carry a version tag, and the API returns only a mask.
+
+## Current work
+
+| Area | What I'm doing | Stack |
+|---|---|---|
+| Power BI in the platform | Fabric-based extraction, compare by file category, per-item merge, embedded reports | `Power BI REST` `Fabric` `Entra ID` `PBIP` |
+| Qlik to Power BI migration | Mapping catalog, validator, one honest migration percentage, Desktop-safe output | `Qlik Engine API` `Power Query M` `Node.js` |
+| Team AI workspace | Skills, review agents, hooks and Playwright MCP UI checks for the whole team | `Claude Code` `MCP` `Playwright` |
+
+## Technology
+
+| Area | Tools |
 |---|---|
-| Versioning for BI apps | Git-style branches, diffs, and merges that a manager approves |
-| BI integrations | Qlik Sense Enterprise, Qlik SaaS, and Power BI |
-| Migration | A Qlik to Power BI flow whose output opens in Power BI Desktop |
-| Security | Payload encryption, encrypted secrets, and fixes for pen-test findings |
-| AI tooling | The team's Claude Code setup, with skills, review agents, and git hooks |
+| Frontend | React, TypeScript, Vite, MUI, Tailwind CSS, React Hook Form, React Router |
+| Backend | Node.js, Express, Sequelize, PostgreSQL (JSONB), JWT, WebSockets, worker threads, Pino |
+| BI platforms | Qlik Engine API (enigma.js), QRS, Qlik SaaS, Power BI REST and Embedded, Fabric, Microsoft Entra |
+| Tooling | Git, GitHub, Bitbucket, Playwright, Postman, Webpack, Figma |
+| AI | Claude Code, agent skills, subagents, MCP |
+| Learning | Docker, CI/CD and Nginx; React Query and Zustand; RAG with open-source LLMs; Next.js |
 
-## Highlights
+## Experience
 
-- I build production SaaS platforms.
-- I design modular, maintainable full stack architecture.
-- I implement secure, role-based systems with JWT.
-- I manage versioned content and change logs.
-- I use AI to speed up development and automate workflows.
-
-## Tech stack
-
-### Languages and frontend
-
-<img src="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,tailwind" alt="TypeScript, JavaScript, React, Vite, Material UI, Tailwind CSS" />
-
-React Router, React Hook Form. I design responsive, mobile-first layouts.
-
-### Backend and data
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,sequelize" alt="Node.js, Express, PostgreSQL, Sequelize" />
-
-REST APIs, JWT auth, OAuth and SSO, WebSockets
-
-### BI platforms
-
-![Qlik Sense](https://img.shields.io/badge/Qlik_Sense-009848?style=for-the-badge&logo=qlik&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-### Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,bitbucket,webpack,postman,figma" alt="Git, GitHub, Bitbucket, Webpack, Postman, Figma" />
-
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-
-### In progress and learning
-
-- React Query and Zustand for state and data management
-- Docker, CI/CD, and Nginx for deployment
-- AI assistants built with retrieval-augmented generation (RAG) and open-source LLMs
-- Next.js, edge functions, and serverless
+| | Role | Focus |
+|---|---|---|
+| **Now** | Software Engineer, SenseOps | Power BI platform, server-side sync, housekeeping, Migrator flow, AI workspace |
+| | Associate Engineer, SenseOps | Qlik Enterprise and SaaS, cloud backup, worker threads, regression module |
+| **Feb 2023** | Intern, SenseOps | Joined the BI DevOps platform team, then rebuilt its codebase in React and Node.js |
 
 <details>
-<summary><b>Archived tech, for now</b></summary>
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=java,php,mongodb,mysql" alt="Java, PHP, MongoDB, MySQL" />
-
-</details>
-
-## Archived projects
-
-<details>
-<summary><b>Earlier explorations, kept for reference</b></summary>
+<summary><b>Earlier projects and archived tech</b></summary>
 
 <br>
 
@@ -101,31 +150,28 @@ REST APIs, JWT auth, OAuth and SSO, WebSockets
 | [vite-react_ts-mui-setup](https://github.com/AneshSM/vite-react_ts-mui-setup) | A Vite, React, TypeScript, and Material UI starter |
 | [ReactJS-Projects](https://github.com/AneshSM/ReactJS-Projects) | Small projects I built to learn React |
 
+Archived tech, for now: Java, PHP, MongoDB, MySQL.
+
 </details>
 
-## GitHub stats
+## Get in touch
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=aneshsm&show_icons=true&hide_border=true&theme=dark" />
-  <img src="https://github-readme-stats.vercel.app/api?username=aneshsm&show_icons=true&hide_border=true" alt="GitHub stats" height="165" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=aneshsm&layout=compact&hide_border=true&theme=dark" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aneshsm&layout=compact&hide_border=true" alt="Top languages" height="165" />
-</picture>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/anesh-somanath-majalikar-13666b222)
+[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/aneshsm)
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/anesh_sm)
+[![CodePen](https://img.shields.io/badge/CodePen-000000?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/aneshsm)
+[![CodeSandbox](https://img.shields.io/badge/CodeSandbox-151515?style=flat-square&logo=codesandbox&logoColor=white)](https://codesandbox.io/u/aneshsm)
 
-</div>
+**Ask me about:** Qlik Engine API, Power BI and Fabric, merge and compare engines, worker-thread pipelines, Claude Code workflows.
 
-## Beyond code
-
-I enjoy sketching, and I share my art on my <a href="https://www.instagram.com/arto.beginner">Instagram art page</a>.
-
----
-
-<div align="center">
+<br>
 
 <i>"Obsessed with clean code, scalable design, and always building the next better thing."</i>
+
+<br><br>
+
+<sub>Off the keyboard I sketch. The drawings live on my <a href="https://www.instagram.com/arto.beginner">art page</a>.</sub>
 
 </div>
