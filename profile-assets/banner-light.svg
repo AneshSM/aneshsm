@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
   <title id="t">Anesh Somanath Majalikar</title>
-  <desc id="d">Software Engineer, full stack (PERN). Version control, deployment and migration for Qlik Sense and Power BI.</desc>
+  <desc id="d">Software Engineer, full stack (PERN). Building SaaS tools for Qlik Sense and Power BI teams.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f0fdfa"/>
@@ -28,8 +28,8 @@
 
   <text x="64" y="132" class="sans" font-size="46" font-weight="700" fill="#0f2f2c">Anesh Somanath Majalikar</text>
   <text x="64" y="174" class="sans" font-size="22" font-weight="600" fill="#0f766e">Software Engineer · Full Stack (PERN)</text>
-  <text x="64" y="212" class="sans" font-size="18" fill="#3f5f5b">Version control, deployment and migration</text>
-  <text x="64" y="238" class="sans" font-size="18" fill="#3f5f5b">for Qlik Sense and Power BI teams.</text>
+  <text x="64" y="212" class="sans" font-size="18" fill="#3f5f5b">Building SaaS tools for</text>
+  <text x="64" y="238" class="sans" font-size="18" fill="#3f5f5b">Qlik Sense and Power BI teams.</text>
 
   <!-- git graph motif -->
   <g fill="none" stroke-width="3" stroke-linecap="round">
