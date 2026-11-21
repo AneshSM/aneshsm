@@ -7,7 +7,7 @@
 
 </div>
 
-I'm a full-stack engineer with a computer science degree and almost four years of building software for a living. I like the parts of a system most people avoid: the sync job that has to survive a crash, the compare and merge logic that has to be exactly right, the integration with a platform whose API fights back. I write TypeScript across the whole stack, and I use AI agents every day while still checking the result myself.
+Hi, I'm Anesh. I build software end to end, from the React screen down to the PostgreSQL table, and I enjoy the tricky middle parts: syncing, merging, and talking to platforms with stubborn APIs. When I'm not coding I'm usually sketching.
 
 ## What I can do
 
@@ -15,7 +15,7 @@ I'm a full-stack engineer with a computer science degree and almost four years o
 - **Backend and data.** REST APIs and the PostgreSQL schemas behind them, including migrations and JSON data. Node.js, Express, PostgreSQL, Sequelize.
 - **Auth and platform integrations.** Sign-in with OAuth, SSO and JWT, and integrations with BI platforms through their own APIs. Qlik Sense (Engine API, QRS, Qlik Cloud), Power BI REST, Microsoft Fabric, Entra ID.
 - **Background processing.** Long-running work moved off the request path: worker threads, retries, schedules and recovery after a crash.
-- **Version control engines.** Git-style branches, commits, compare and merge for content that isn't plain code, plus backups to GitHub, GitLab, Bitbucket and Azure.
+- **Version control engines.** Git-style branches, commits, compare and merge for content that isn't plain code.
 - **AI-assisted engineering.** Claude Code with skills, subagents, hooks and MCP servers. I verify UI changes in a real browser with Playwright before I call them done.
 
 <picture>
@@ -25,10 +25,10 @@ I'm a full-stack engineer with a computer science degree and almost four years o
 
 ## How I got here
 
-- **Computer science degree.** <!-- TODO: college and graduation year, if you want them shown --> My final-year project was [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native app for an Ayurvedic hospital with appointments, reminders and maps. After it I taught myself the backend: Express, TypeScript, and the same REST API built twice to compare Prisma and Sequelize.
+- **Where it started.** My college project was [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native app for an Ayurvedic hospital with appointments, reminders and maps. After it I taught myself the backend: Express, TypeScript, and the same REST API built twice to compare Prisma and Sequelize.
 - **Intern at SenseOps, February 2023.** I joined the team behind Code Management, a version control and deployment product for Qlik Sense and, since October 2026, Power BI. Eight months in, I rebuilt its server-rendered app as a React and Node.js codebase. That codebase is still the product.
-- **Associate Engineer.** <!-- TODO: start month and year --> I took on Qlik Enterprise and Qlik Cloud support, cloud backups, and the move of background jobs to worker threads.
-- **Software Engineer, now.** <!-- TODO: start month and year --> I own the architecture base, the versioning core and the platform integrations, including Power BI. I also set up and run the team's Claude Code workspace.
+- **Associate Engineer.** I took on Qlik Enterprise and Qlik Cloud support, and moved background jobs to worker threads.
+- **Software Engineer, now.** I own the architecture base, the versioning core and the platform integrations, including Power BI. I also set up and run the team's Claude Code workspace.
 
 ## How I work
 
@@ -43,6 +43,8 @@ I'm a full-stack engineer with a computer science degree and almost four years o
 - **A cloud platform, properly.** Deploying and running my own projects on AWS, not just calling cloud APIs.
 - **Testing as a habit.** Unit and end-to-end tests from the first commit, not added later.
 - **AI inside products.** Retrieval-augmented features with open-source models, beyond AI as a coding tool.
+
+After that, more of the same direction: tools that deepen the stack I already work in or extend it into new areas.
 
 ## Projects
 
@@ -73,4 +75,4 @@ I sketch, and I post my drawings on my [Instagram art page](https://www.instagra
 
 **Ask me about:** integrating with BI platforms, compare and merge logic, background job pipelines, and working with Claude Code.
 
-[LinkedIn](https://linkedin.com/in/anesh-somanath-majalikar-13666b222) · [X](https://twitter.com/anesh_sm) · [CodePen](https://codepen.io/aneshsm) · [CodeSandbox](https://codesandbox.io/u/aneshsm) · [Instagram art](https://www.instagram.com/arto.beginner)
+[LinkedIn](https://linkedin.com/in/anesh-somanath-majalikar-13666b222) · [Instagram art](https://www.instagram.com/arto.beginner)
