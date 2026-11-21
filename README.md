@@ -12,9 +12,9 @@
 
 </div>
 
-I joined SenseOps as an intern in February 2023. Eight months later I rebuilt our server-rendered Handlebars app as a React and Node.js codebase, and that codebase still runs the product: a SaaS platform that gives Qlik Sense and Power BI teams version control, deployment and migration.
+I joined SenseOps as an intern in February 2023. Eight months later I rebuilt our server-rendered Handlebars app as a React and Node.js codebase. That codebase still runs the product, a SaaS platform that gives Qlik Sense and Power BI teams version control, deployment and migration.
 
-Three years on, I own its architecture, its versioning core and its platform adapters. I also set up and run the team's Claude Code workspace. I write most of my code in TypeScript on the PERN stack (PostgreSQL, Express, React, Node.js).
+Three years on, I own its architecture, its versioning core and its platform adapters. I also set up and run the team's Claude Code workspace. I write most of my code in TypeScript on the PERN stack, which is PostgreSQL, Express, React and Node.js.
 
 ## The journey
 
@@ -41,21 +41,21 @@ timeline
 
 **Versioning for BI apps**
 
-Repositories, branches, compare and merge for Qlik and Power BI apps, with a manager approving each change before it's promoted.
+Repositories, branches, compare and merge for Qlik and Power BI apps. A manager approves each change before it's promoted.
 
 </td>
 <td width="33%" valign="top">
 
 **Platform adapters**
 
-Qlik Enterprise, Qlik SaaS and Power BI behind a single dispatch, with Fabric extraction, Entra sign-in and embedded reports.
+Qlik Enterprise, Qlik SaaS and Power BI behind one dispatch layer, with Fabric extraction, Entra sign-in and embedded reports.
 
 </td>
 <td width="33%" valign="top">
 
 **Migration**
 
-The Qlik to Power BI flow in our team's Migrator, producing PBIP projects that open cleanly in Power BI Desktop.
+The Qlik to Power BI flow in our team's Migrator. It writes PBIP projects that open in Power BI Desktop without errors.
 
 </td>
 </tr>
@@ -100,12 +100,12 @@ gitGraph
     commit id: "promote"
 ```
 
-A developer branches a Qlik or Power BI app and commits changes to it. The server compares the branch with its parent item by item (sheets, scripts, measures, report files), and a manager approves the merge against the latest destination commit before the change is promoted.
+A developer branches a Qlik or Power BI app and commits changes to it. The server compares the branch with its parent item by item, such as sheets, scripts, measures and report files. A manager then approves the merge against the latest destination commit, and the change is promoted.
 
 ## Lessons from production
 
 - **Browser-run user sync was unsafe.** A dropped connection could leave users half-deactivated, and an empty or failed fetch could deactivate everyone. I moved sync to the server, with guards and a log the client polls.
-- **Power BI Desktop is stricter than the schema.** It refused our migration output over one-way one-to-one relationships. I fixed the cause and added a shape check against Desktop-saved samples to the pre-commit hook.
+- **Power BI Desktop is stricter than the schema.** It refused our migration output because of one-way one-to-one relationships. I fixed the cause and added a shape check against Desktop-saved samples to the pre-commit hook.
 - **Secrets need a marker.** Legacy plaintext and ciphertext looked the same in the database, so stored secrets now carry a version tag, and the API returns only a mask.
 
 ## Current work
@@ -113,8 +113,8 @@ A developer branches a Qlik or Power BI app and commits changes to it. The serve
 | Area | What I'm doing | Stack |
 |---|---|---|
 | Power BI in the platform | Fabric-based extraction, compare by file category, per-item merge, embedded reports | `Power BI REST` `Fabric` `Entra ID` `PBIP` |
-| Qlik to Power BI migration | Mapping catalog, validator, one honest migration percentage, Desktop-safe output | `Qlik Engine API` `Power Query M` `Node.js` |
-| Team AI workspace | Skills, review agents, hooks and Playwright MCP UI checks for the whole team | `Claude Code` `MCP` `Playwright` |
+| Qlik to Power BI migration | Mapping catalog, validator, a single migration percentage, output that opens in Power BI Desktop | `Qlik Engine API` `Power Query M` `Node.js` |
+| Team AI workspace | Skills, review agents, hooks and Playwright MCP UI checks | `Claude Code` `MCP` `Playwright` |
 
 ## Technology
 
@@ -172,6 +172,6 @@ Archived tech, for now: Java, PHP, MongoDB, MySQL.
 
 <br><br>
 
-<sub>Off the keyboard I sketch. The drawings live on my <a href="https://www.instagram.com/arto.beginner">art page</a>.</sub>
+<sub>Off the keyboard I sketch. I post them on my <a href="https://www.instagram.com/arto.beginner">art page</a>.</sub>
 
 </div>
