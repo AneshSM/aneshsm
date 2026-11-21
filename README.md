@@ -50,21 +50,21 @@ timeline
 
 **Versioning for BI apps**
 
-Repositories, branches, commits, compare and merge for Qlik and Power BI apps. A manager approves each merge against the latest destination commit, and a commit graph shows the history.
+Qlik and Power BI apps get repositories, branches, commits, compare and merge. A manager approves each merge against the latest destination commit, and a commit graph shows the history.
 
 </td>
 <td width="33%" valign="top">
 
 **Platform adapters**
 
-Qlik Enterprise, Qlik SaaS and Power BI behind one dispatch layer, with a capability catalog. Covers the Qlik Engine API through enigma.js, QRS, certificates and tokens, Fabric extraction, Entra sign-in and embedded reports.
+One dispatch layer and a capability catalog cover Qlik Enterprise, Qlik SaaS and Power BI. The adapters use the Qlik Engine API through enigma.js, QRS, certificates and tokens, Fabric extraction, Entra sign-in and embedded reports.
 
 </td>
 <td width="33%" valign="top">
 
 **BI migration**
 
-The Qlik to Power BI flow in Migrator: a mapping catalog, a validator, a per-visual picker, theme and layout support, and a single migration percentage. Its PBIP output opens in Power BI Desktop.
+The Qlik to Power BI flow in Migrator has a mapping catalog, a validator, a per-visual picker, theme and layout support, and one migration percentage. Its PBIP output opens in Power BI Desktop.
 
 </td>
 </tr>
@@ -73,21 +73,21 @@ The Qlik to Power BI flow in Migrator: a mapping catalog, a validator, a per-vis
 
 **Security**
 
-AES-256-GCM payload encryption with gzip for large responses. Client secrets encrypted at rest and masked in the API. Nonce-bound Power BI sign-in, identity taken from the signed token, and git commands run as argument lists.
+Payloads use AES-256-GCM encryption, with gzip for large responses. Client secrets are encrypted at rest and masked in the API. Power BI sign-in is bound to a nonce, identity comes from the signed token, and git commands run as argument lists.
 
 </td>
 <td valign="top">
 
 **Reliability and data lifecycle**
 
-Worker threads, retry with backoff, crash recovery and scheduled jobs. Housekeeping finds stale and duplicate apps, then quarantines, purges and restores them. Cloud backup mirrors repositories to the customer's git host.
+Jobs run on worker threads with retry, backoff, crash recovery and schedules. Housekeeping finds stale and duplicate apps, quarantines them, and can purge or restore them. Cloud backup mirrors repositories to the customer's git host.
 
 </td>
 <td valign="top">
 
 **AI-assisted engineering**
 
-The team's Claude Code workspace: rules, local skill plugins, skill linting, review agents, identity and commit hooks, and a UI verifier agent that drives the browser through Playwright MCP.
+I built the team's Claude Code workspace. It has rules, local skill plugins, skill linting, review agents, identity and commit hooks, and a UI verifier agent that drives the browser through Playwright MCP.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ A developer branches a Qlik or Power BI app and commits changes to it. The serve
 - **Browser-run user sync was unsafe.** A dropped connection could leave users half-deactivated, and an empty or failed fetch could deactivate everyone. I moved sync to the server, with guards, concurrency-safe upserts and a log the client polls.
 - **Power BI Desktop is stricter than the schema.** It refused our migration output because of one-way one-to-one relationships and wrapped gradient stops. I fixed both causes and added a shape check against Desktop-saved samples to the pre-commit hook.
 - **Secrets need a marker.** Legacy plaintext and ciphertext looked the same in the database, so stored secrets now carry a version tag, and the API returns only a mask.
-- **Large payloads need a plan.** Regression and compare responses grew large, so encrypted payloads over 512 KB are now gzipped first, and a bad payload gets a 400 response.
+- **Encrypted payloads need compression.** Regression and compare responses grew large, so the server now gzips payloads over 512 KB before it encrypts them, and it returns 400 for a bad payload.
 
 ## Current work
 
@@ -165,7 +165,7 @@ Qlik Engine API (enigma.js), QRS, Qlik SaaS, Power BI REST and Embedded, PBIP, P
 ![Prettier](https://img.shields.io/badge/Prettier-1A2B34?style=for-the-badge&logo=prettier&logoColor=F7B93E)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 
-**Learning now:** Docker, CI/CD and Nginx for deployment; React Query and Zustand for state; AI assistants built with RAG and open-source LLMs; Next.js, edge functions and serverless.
+I'm learning Docker, CI/CD and Nginx for deployment, Zustand for state, RAG with open-source LLMs for AI assistants, and Next.js with edge functions and serverless.
 
 ## Experience
 
@@ -175,7 +175,7 @@ Qlik Engine API (enigma.js), QRS, Qlik SaaS, Power BI REST and Embedded, PBIP, P
 | | Associate Engineer | Qlik Enterprise and SaaS, cloud backup, worker threads, regression module |
 | **Feb 2023** | Intern | Joined the BI DevOps platform team, then rebuilt its codebase in React and Node.js |
 
-<sub>My work lives in private company repos, so my public GitHub activity stays low. The 2,800+ commits are across the product repos since October 2023.</sub>
+<sub>My work is in private company repos, so my public GitHub activity is low. The 2,800+ commits are across the product repos since October 2023.</sub>
 
 <details>
 <summary><b>Earlier projects and archived tech</b></summary>
