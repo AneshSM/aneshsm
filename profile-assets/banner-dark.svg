@@ -22,7 +22,7 @@
       .l2 { animation-delay: 4s; }
       .l3 { animation-delay: 8s; }
       @keyframes cycle { 0% { opacity: 0; } 3% { opacity: 1; } 30% { opacity: 1; } 33.3% { opacity: 0; } 100% { opacity: 0; } }
-      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0; } .lbl { animation: none; } .l1 { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0; } }
     </style>
   </defs>
 
