@@ -5,6 +5,12 @@
   <img src="profile-assets/banner-light.svg" alt="Anesh Somanath Majalikar, Software Engineer, full stack (PERN). I build full-stack TypeScript apps, platform integrations and AI-assisted tooling." width="100%" />
 </picture>
 
+<br><br>
+
+<img src="https://img.shields.io/badge/experience-3%2B_years-0f766e?style=for-the-badge" alt="Experience: 3+ years" />
+<img src="https://img.shields.io/badge/BI_platforms-Qlik_%C2%B7_Power_BI-059669?style=for-the-badge" alt="BI platforms: Qlik and Power BI" />
+<img src="https://img.shields.io/badge/stack-PERN_%2B_TypeScript-047857?style=for-the-badge" alt="Stack: PERN and TypeScript" />
+
 </div>
 
 Hi, I'm Anesh. I build software end to end, from the React screen down to the PostgreSQL table, and I enjoy the tricky middle parts: syncing, merging, and talking to platforms with stubborn APIs. When I'm not coding I'm usually sketching.
@@ -18,10 +24,45 @@ Hi, I'm Anesh. I build software end to end, from the React screen down to the Po
 - **Version control engines.** Git-style branches, commits, compare and merge for content that isn't plain code.
 - **AI-assisted engineering.** Claude Code with skills, subagents, hooks and MCP servers. I verify UI changes in a real browser with Playwright before I call them done.
 
+## Tech stack
+
+**Languages and frontend**
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,nodejs,express,postgres,sequelize,git,github&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,nodejs,express,postgres,sequelize,git,github&theme=light" alt="TypeScript, JavaScript, React, Vite, Material UI, Node.js, Express, PostgreSQL, Sequelize, Git, GitHub" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,tailwind&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,tailwind&theme=light" alt="TypeScript, JavaScript, React, Vite, Material UI, Tailwind CSS" />
 </picture>
+
+React Router, React Hook Form with Yup, TanStack Query, react-window, Web Crypto, IndexedDB, @gitgraph/js
+
+**Backend and data**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,express,postgres,sequelize&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,sequelize&theme=light" alt="Node.js, Express, PostgreSQL, Sequelize" />
+</picture>
+
+REST APIs, JWT, OAuth and SSO, WebSockets, worker threads, node-schedule, pino, PostgreSQL JSONB, Umzug migrations
+
+**BI platforms**
+
+<img src="https://img.shields.io/badge/Qlik_Sense-009848?style=for-the-badge&logo=qlik&logoColor=white" alt="Qlik Sense" />
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+<img src="https://img.shields.io/badge/Microsoft_Fabric-117865?style=for-the-badge&logoColor=white" alt="Microsoft Fabric" />
+<img src="https://img.shields.io/badge/Microsoft_Entra-0078D4?style=for-the-badge&logoColor=white" alt="Microsoft Entra" />
+
+Qlik Engine API (enigma.js), QRS, Qlik Cloud, Power BI REST, PBIP, Power Query M
+
+**Tools and AI**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,bitbucket,webpack,postman,figma&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,bitbucket,webpack,postman,figma&theme=light" alt="Git, GitHub, Bitbucket, Webpack, Postman, Figma" />
+</picture>
+
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
+<img src="https://img.shields.io/badge/Prettier-1A2B34?style=for-the-badge&logo=prettier&logoColor=F7B93E" alt="Prettier" />
+<img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
 
 ## How I got here
 
