@@ -1,13 +1,20 @@
 <div align="center">
 
 <picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="profile-assets/banner-mobile-dark.svg" />
+  <source media="(max-width: 640px)" srcset="profile-assets/banner-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="profile-assets/banner-dark.svg" />
   <img src="profile-assets/banner-light.svg" alt="Anesh Somanath Majalikar, Software Engineer, full stack (PERN). React to PostgreSQL in TypeScript, plus connectors for Qlik and Power BI." width="100%" />
 </picture>
 
 <br><br>
 
-<p><img src="https://img.shields.io/badge/experience-3%2B_years-c2410c?style=for-the-badge" alt="Experience: 3+ years" />  <img src="https://img.shields.io/badge/stack-PERN_%2B_TypeScript-1d4ed8?style=for-the-badge" alt="Stack: PERN and TypeScript" /> <img src="https://img.shields.io/badge/BI_platforms-Qlik_%C2%B7_Power_BI-047857?style=for-the-badge" alt="BI platforms: Qlik and Power BI" /> <img src="https://img.shields.io/badge/AI--assisted-Claude_Code_%2B_MCP-7c3aed?style=for-the-badge" alt="AI-assisted: Claude Code and MCP" /></p>
+<p>
+<picture>
+  <source media="(max-width: 640px)" srcset="profile-assets/badges-stats-mobile.svg" />
+  <img src="profile-assets/badges-stats.svg" alt="Experience: 3+ years. Stack: PERN and TypeScript. BI platforms: Qlik and Power BI. AI-assisted: Claude Code and MCP." width="100%" />
+</picture>
+</p>
 
 </div>
 
@@ -44,7 +51,12 @@ REST APIs, JWT, OAuth and SSO, WebSockets, worker threads, node-schedule, pino, 
 
 **BI platforms**
 
-<p><img src="https://img.shields.io/badge/Qlik_Sense-009848?style=for-the-badge&logo=qlik&logoColor=white" alt="Qlik Sense" /> <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" /> <img src="https://img.shields.io/badge/Microsoft_Fabric-117865?style=for-the-badge&logoColor=white" alt="Microsoft Fabric" /> <img src="https://img.shields.io/badge/Microsoft_Entra-0078D4?style=for-the-badge&logoColor=white" alt="Microsoft Entra" /></p>
+<p>
+<picture>
+  <source media="(max-width: 640px)" srcset="profile-assets/badges-bi-mobile.svg" />
+  <img src="profile-assets/badges-bi.svg" alt="Qlik Sense, Power BI, Microsoft Fabric, Microsoft Entra" width="100%" />
+</picture>
+</p>
 
 Qlik Engine API (enigma.js), QRS, Qlik Cloud, Power BI REST, PBIP, Power Query M
 
@@ -55,7 +67,12 @@ Qlik Engine API (enigma.js), QRS, Qlik Cloud, Power BI REST, PBIP, Power Query M
   <img src="https://skillicons.dev/icons?i=git,github,bitbucket,webpack,postman,figma&theme=light" alt="Git, GitHub, Bitbucket, Webpack, Postman, Figma" />
 </picture>
 
-<p><img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" /> <img src="https://img.shields.io/badge/Prettier-1A2B34?style=for-the-badge&logo=prettier&logoColor=F7B93E" alt="Prettier" /> <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" /></p>
+<p>
+<picture>
+  <source media="(max-width: 640px)" srcset="profile-assets/badges-tools-mobile.svg" />
+  <img src="profile-assets/badges-tools.svg" alt="Playwright, Prettier, Claude Code" width="100%" />
+</picture>
+</p>
 
 ## How I got here
 

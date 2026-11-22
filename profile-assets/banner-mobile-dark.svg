@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="556" viewBox="0 0 600 556" role="img" aria-labelledby="t d">
+  <title id="t">Anesh Somanath Majalikar</title>
+  <desc id="d">Software Engineer, full stack (PERN). React to PostgreSQL in TypeScript, plus connectors for Qlik and Power BI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d1d1f"/>
+      <stop offset="1" stop-color="#262628"/>
+    </linearGradient>
+    <!-- paper grain -->
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="7" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.92  0 0 0 0 0.91  0 0 0 0 0.89  0.35 0 0 0 -0.12"/>
+    </filter>
+    <!-- slight wobble so strokes look hand drawn -->
+    <filter id="pencil" x="-2%" y="-10%" width="104%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="pencil2" x="-2%" y="-10%" width="104%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="11" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="pencilsoft" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.2" numOctaves="1" seed="5" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <style>
+      .sans { font-family: 'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .hand { font-family: 'Segoe Print', 'Bradley Hand', 'Comic Sans MS', 'Comic Neue', cursive; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+      @keyframes pulse { 0% { opacity: .45; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
+      .lbl { opacity: 0; animation: cycle 20s linear infinite both; }
+      .l1 { opacity: 1; animation-delay: -0.5s; }
+      .l2 { animation-delay: 3.5s; }
+      .l3 { animation-delay: 7.5s; }
+      .l4 { animation-delay: 11.5s; }
+      .l5 { animation-delay: 15.5s; }
+      @keyframes cycle { 0% { opacity: 0; } 2% { opacity: 1; } 18% { opacity: 1; } 20% { opacity: 0; } 100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="600" height="250" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="600" height="250" rx="18" filter="url(#grain)"/>
+  <!-- hand-drawn underline -->
+  <g fill="none" stroke="#efede8" stroke-linecap="round" filter="url(#pencil)">
+    <path d="M32 48 c 18 -3, 38 -2, 58 -1" stroke-width="6"/>
+    <path d="M34 51 c 20 -2, 38 -1, 52 -2" stroke-width="2.5" opacity=".55"/>
+  </g>
+  <text x="32" y="104" class="sans" font-size="38" font-weight="800" fill="#f7f6f3">Anesh Somanath Majalikar</text>
+  <text x="32" y="146" class="sans" font-size="24" font-weight="700" fill="#dedbd4">Software Engineer · Full Stack (PERN)</text>
+  <text x="32" y="188" class="sans" font-size="21" font-weight="600" fill="#b8b4ab">React to PostgreSQL in TypeScript, plus</text>
+  <text x="32" y="218" class="sans" font-size="21" font-weight="600" fill="#b8b4ab">connectors for Qlik and Power BI.</text>
+
+  <rect x="0" y="266" width="600" height="290" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="266" width="600" height="290" rx="18" filter="url(#grain)"/>
+  <g transform="translate(48 411) scale(1.2) translate(-760 -145)">
+  <!-- git graph motif, sketched: a main stroke plus a faint second pass -->
+  <g fill="none" stroke-width="2" stroke-linecap="round" opacity=".5" filter="url(#pencil2)">
+    <path d="M760 150 H1150" stroke="#6a6761" transform="translate(1.5 -1.5)"/>
+    <path d="M830 150 C 860 150, 860 92, 890 92 H970 C 1000 92, 1000 150, 1050 150" stroke="#efede8" transform="translate(1.5 -1.5)"/>
+    <path d="M930 150 C 955 150, 955 208, 980 208 H1020 C 1045 208, 1045 150, 1100 150" stroke="#c2beb5" transform="translate(1.5 -1.5)"/>
+  </g>
+  <g fill="none" stroke-width="4.2" stroke-linecap="round" filter="url(#pencil)">
+    <path d="M760 150 H1150" stroke="#6a6761" transform="translate(0 0)"/>
+    <path d="M830 150 C 860 150, 860 92, 890 92 H970 C 1000 92, 1000 150, 1050 150" stroke="#efede8" transform="translate(0 0)"/>
+    <path d="M930 150 C 955 150, 955 208, 980 208 H1020 C 1045 208, 1045 150, 1100 150" stroke="#c2beb5" transform="translate(0 0)"/>
+  </g>
+  <g stroke-width="3.4" filter="url(#pencilsoft)">
+    <circle cx="790" cy="150" r="8" fill="#1f1f21" stroke="#6a6761"/>
+    <circle cx="830" cy="150" r="8" fill="#1f1f21" stroke="#6a6761"/>
+    <circle cx="905" cy="92" r="8" fill="#1f1f21" stroke="#efede8"/>
+    <circle cx="955" cy="92" r="8" fill="#1f1f21" stroke="#efede8"/>
+    <circle cx="930" cy="150" r="8" fill="#1f1f21" stroke="#6a6761"/>
+    <circle cx="1000" cy="208" r="8" fill="#1f1f21" stroke="#c2beb5"/>
+    <circle cx="1100" cy="150" r="8" fill="#1f1f21" stroke="#c2beb5"/>
+  </g>
+  <circle class="pulse" cx="1050" cy="150" r="11" fill="#e2dfd8"/>
+  <circle cx="1050" cy="150" r="11" fill="#f7f6f3" stroke="#1f1f21" stroke-width="3"/>
+
+  <!-- five label sets cycle, 4s each: delivery, data path, versioning, journey, next -->
+  <g class="hand" font-size="20" font-weight="700" fill="#bdb9b0">
+    <g class="lbl l1">
+      <text x="905" y="70">frontend</text>
+      <text x="980" y="236">backend</text>
+      <text x="1064" y="132">shipped</text>
+      <text x="762" y="180">idea</text>
+    </g>
+    <g class="lbl l2">
+      <text x="905" y="70">REST APIs</text>
+      <text x="980" y="236">worker jobs</text>
+      <text x="1064" y="132">tested</text>
+      <text x="762" y="180">schema</text>
+    </g>
+    <g class="lbl l3">
+      <text x="905" y="70">compare</text>
+      <text x="980" y="236">merge</text>
+      <text x="1064" y="132">deploy</text>
+      <text x="762" y="180">commit</text>
+    </g>
+    <g class="lbl l4">
+      <text x="905" y="70">intern</text>
+      <text x="980" y="236">rebuild</text>
+      <text x="1064" y="132">associate</text>
+      <text x="762" y="180">2023</text>
+    </g>
+    <g class="lbl l5">
+      <text x="905" y="70">CI/CD</text>
+      <text x="980" y="236">AI integration</text>
+      <text x="1064" y="132">next</text>
+      <text x="762" y="180">now</text>
+    </g>
+  </g>
+  </g>
+</svg>
