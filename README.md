@@ -11,16 +11,16 @@
 
 </div>
 
-Hi, I'm Anesh. I build software end to end, from the React screen down to the PostgreSQL table, and I enjoy the tricky middle parts: syncing, merging, and talking to platforms with stubborn APIs. When I'm not coding I'm usually sketching; my drawings are on Instagram, linked at the bottom.
+Hi, I'm Anesh. I build web apps end to end, from the React screen down to the PostgreSQL table. The work I enjoy most is data sync, merge logic and integrations with third-party platform APIs. When I'm not coding, I sketch. My drawings are on Instagram, linked at the bottom.
 
 ## What I can do
 
-- **Frontend.** React apps with forms, data fetching and large lists that stay fast.
-- **Backend and data.** REST APIs and the PostgreSQL schemas behind them, including migrations and JSON data.
-- **Auth and platform integrations.** Sign-in with OAuth, SSO and JWT, and integrations with Qlik and Power BI through their own APIs.
-- **Background processing.** Long-running work moved off the request path: worker threads, retries, schedules and recovery after a crash.
-- **Version control engines.** Git-style branches, commits, compare and merge for content that isn't plain code.
-- **AI-assisted engineering.** Claude Code with skills, subagents, hooks and MCP servers. I verify UI changes in a real browser with Playwright before I call them done.
+- **Frontend.** I build React apps with forms, data fetching and long lists that render only the visible rows.
+- **Backend and data.** I design REST APIs and the PostgreSQL schemas behind them, including migrations and JSON columns.
+- **Auth and platform integrations.** I add sign-in with OAuth, SSO and JWT, and I integrate with Qlik and Power BI through their APIs.
+- **Background processing.** I move long-running work off the request path into worker threads, with retries, schedules and recovery after a crash.
+- **Version control engines.** I build Git-style branches, commits, compare and merge for content that isn't source code.
+- **AI-assisted engineering.** I use Claude Code with skills, subagents, hooks and MCP servers. I check UI changes in a real browser with Playwright before I call them done.
 
 ## Tech stack
 
@@ -59,8 +59,8 @@ Qlik Engine API (enigma.js), QRS, Qlik Cloud, Power BI REST, PBIP, Power Query M
 
 ## How I got here
 
-- **Where it started.** My college project was [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native app for an Ayurvedic hospital with appointments, reminders and maps. After it I taught myself the backend: Express, TypeScript, and the same REST API built twice to compare Prisma and Sequelize.
-- **Intern at SenseOps, February 2023.** I joined the team behind Code Management, a version control and deployment product for Qlik Sense and, since October 2026, Power BI. Eight months in, I rebuilt its server-rendered app as a React and Node.js codebase. That codebase is still the product.
+- **Where it started.** My college project was [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native app for an Ayurvedic hospital with appointments, reminders and maps. After it, I taught myself Express and TypeScript. I built the same REST API twice to compare Prisma and Sequelize.
+- **Intern at Gain Insights, February 2023.** I joined the team behind Code Management, a product of our sister company SenseOps. Code Management is a version control and deployment product for Qlik Sense and, since October 2026, Power BI. Eight months in, I rebuilt its server-rendered app as a React and Node.js codebase. That codebase is still the product.
 - **Associate Engineer.** I took on Qlik Enterprise and Qlik Cloud support, and moved background jobs to worker threads.
 - **Software Engineer, now.** I own the architecture base, the versioning core and the platform integrations, including Power BI. I also set up and run the team's Claude Code workspace.
 
@@ -69,16 +69,18 @@ Qlik Engine API (enigma.js), QRS, Qlik Cloud, Power BI REST, PBIP, Power Query M
 - I ship features as matching client and server changes, and I fix what breaks in my areas, whoever wrote it.
 - I record design decisions in ADRs, including the ones a later ADR replaces.
 - I write commits in Conventional Commits format, with the reason in the body.
-- I treat AI output as a draft: tests, a browser check and a review before it merges.
+- I treat AI output as a draft. It gets tests, a browser check and a review before it merges.
 
 ## Where I'm heading
 
-- **Containers and CI/CD.** Docker, Nginx and pipelines that build, test and deploy on every push.
-- **A cloud platform, properly.** Deploying and running my own projects on AWS, not just calling cloud APIs.
-- **Testing as a habit.** Unit and end-to-end tests from the first commit, not added later.
-- **AI inside products.** Retrieval-augmented features with open-source models, beyond AI as a coding tool.
+These are the skills I'm learning next.
 
-After that, more of the same direction: tools that deepen the stack I already work in or extend it into new areas.
+- **Containers and CI/CD.** I want to package apps with Docker and Nginx, with pipelines that build, test and deploy on every push.
+- **A cloud platform.** I want to deploy and run my own projects on AWS.
+- **Testing as a habit.** I want unit and end-to-end tests in every project from the first commit.
+- **AI inside products.** I want to build retrieval-augmented generation (RAG) features on open-source models.
+
+I'll add to this list as I pick up tools that build on the stack above.
 
 ## Projects
 
@@ -105,4 +107,7 @@ New personal projects are in progress and will show up here and in my pinned rep
 
 **Ask me about:** integrating with BI platforms, compare and merge logic, background job pipelines, and working with Claude Code.
 
-[LinkedIn](https://linkedin.com/in/anesh-somanath-majalikar-13666b222) · [Instagram art](https://www.instagram.com/arto.beginner)
+<p>
+  <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" /></a>&nbsp;
+  <a href="https://www.instagram.com/arto.beginner"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram art page" height="40" /></a>
+</p>
