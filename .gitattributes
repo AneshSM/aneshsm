@@ -1,0 +1,2 @@
+# Keep LF everywhere so regenerated SVGs and scripts never show as modified on Windows checkouts.
+* text=auto eol=lf
