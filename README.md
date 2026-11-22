@@ -2,24 +2,22 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-assets/banner-dark.svg" />
-  <img src="profile-assets/banner-light.svg" alt="Anesh Somanath Majalikar, Software Engineer, full stack (PERN). I build full-stack TypeScript apps, platform integrations and AI-assisted tooling." width="100%" />
+  <img src="profile-assets/banner-light.svg" alt="Anesh Somanath Majalikar, Software Engineer, full stack (PERN). React to PostgreSQL in TypeScript, plus connectors for Qlik and Power BI." width="100%" />
 </picture>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/experience-3%2B_years-0f766e?style=for-the-badge" alt="Experience: 3+ years" />
-<img src="https://img.shields.io/badge/BI_platforms-Qlik_%C2%B7_Power_BI-059669?style=for-the-badge" alt="BI platforms: Qlik and Power BI" />
-<img src="https://img.shields.io/badge/stack-PERN_%2B_TypeScript-047857?style=for-the-badge" alt="Stack: PERN and TypeScript" />
+<p><img src="https://img.shields.io/badge/experience-3%2B_years-0f766e?style=for-the-badge" alt="Experience: 3+ years" /> <img src="https://img.shields.io/badge/BI_platforms-Qlik_%C2%B7_Power_BI-059669?style=for-the-badge" alt="BI platforms: Qlik and Power BI" /> <img src="https://img.shields.io/badge/stack-PERN_%2B_TypeScript-047857?style=for-the-badge" alt="Stack: PERN and TypeScript" /></p>
 
 </div>
 
-Hi, I'm Anesh. I build software end to end, from the React screen down to the PostgreSQL table, and I enjoy the tricky middle parts: syncing, merging, and talking to platforms with stubborn APIs. When I'm not coding I'm usually sketching.
+Hi, I'm Anesh. I build software end to end, from the React screen down to the PostgreSQL table, and I enjoy the tricky middle parts: syncing, merging, and talking to platforms with stubborn APIs. When I'm not coding I'm usually sketching; my drawings are on Instagram, linked at the bottom.
 
 ## What I can do
 
-- **Frontend.** React apps with forms, data fetching and large lists that stay fast. React, TypeScript, Vite, Material UI, TanStack Query.
-- **Backend and data.** REST APIs and the PostgreSQL schemas behind them, including migrations and JSON data. Node.js, Express, PostgreSQL, Sequelize.
-- **Auth and platform integrations.** Sign-in with OAuth, SSO and JWT, and integrations with BI platforms through their own APIs. Qlik Sense (Engine API, QRS, Qlik Cloud), Power BI REST, Microsoft Fabric, Entra ID.
+- **Frontend.** React apps with forms, data fetching and large lists that stay fast.
+- **Backend and data.** REST APIs and the PostgreSQL schemas behind them, including migrations and JSON data.
+- **Auth and platform integrations.** Sign-in with OAuth, SSO and JWT, and integrations with Qlik and Power BI through their own APIs.
 - **Background processing.** Long-running work moved off the request path: worker threads, retries, schedules and recovery after a crash.
 - **Version control engines.** Git-style branches, commits, compare and merge for content that isn't plain code.
 - **AI-assisted engineering.** Claude Code with skills, subagents, hooks and MCP servers. I verify UI changes in a real browser with Playwright before I call them done.
@@ -29,7 +27,7 @@ Hi, I'm Anesh. I build software end to end, from the React screen down to the Po
 **Languages and frontend**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,tailwind&theme=dark" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cvite%2Cmaterialui%2Ctailwind&theme=dark" />
   <img src="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,tailwind&theme=light" alt="TypeScript, JavaScript, React, Vite, Material UI, Tailwind CSS" />
 </picture>
 
@@ -38,7 +36,7 @@ React Router, React Hook Form with Yup, TanStack Query, react-window, Web Crypto
 **Backend and data**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,express,postgres,sequelize&theme=dark" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cexpress%2Cpostgres%2Csequelize&theme=dark" />
   <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,sequelize&theme=light" alt="Node.js, Express, PostgreSQL, Sequelize" />
 </picture>
 
@@ -46,23 +44,18 @@ REST APIs, JWT, OAuth and SSO, WebSockets, worker threads, node-schedule, pino, 
 
 **BI platforms**
 
-<img src="https://img.shields.io/badge/Qlik_Sense-009848?style=for-the-badge&logo=qlik&logoColor=white" alt="Qlik Sense" />
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-<img src="https://img.shields.io/badge/Microsoft_Fabric-117865?style=for-the-badge&logoColor=white" alt="Microsoft Fabric" />
-<img src="https://img.shields.io/badge/Microsoft_Entra-0078D4?style=for-the-badge&logoColor=white" alt="Microsoft Entra" />
+<p><img src="https://img.shields.io/badge/Qlik_Sense-009848?style=for-the-badge&logo=qlik&logoColor=white" alt="Qlik Sense" /> <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" /> <img src="https://img.shields.io/badge/Microsoft_Fabric-117865?style=for-the-badge&logoColor=white" alt="Microsoft Fabric" /> <img src="https://img.shields.io/badge/Microsoft_Entra-0078D4?style=for-the-badge&logoColor=white" alt="Microsoft Entra" /></p>
 
 Qlik Engine API (enigma.js), QRS, Qlik Cloud, Power BI REST, PBIP, Power Query M
 
 **Tools and AI**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,bitbucket,webpack,postman,figma&theme=dark" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git%2Cgithub%2Cbitbucket%2Cwebpack%2Cpostman%2Cfigma&theme=dark" />
   <img src="https://skillicons.dev/icons?i=git,github,bitbucket,webpack,postman,figma&theme=light" alt="Git, GitHub, Bitbucket, Webpack, Postman, Figma" />
 </picture>
 
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
-<img src="https://img.shields.io/badge/Prettier-1A2B34?style=for-the-badge&logo=prettier&logoColor=F7B93E" alt="Prettier" />
-<img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
+<p><img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" /> <img src="https://img.shields.io/badge/Prettier-1A2B34?style=for-the-badge&logo=prettier&logoColor=F7B93E" alt="Prettier" /> <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" /></p>
 
 ## How I got here
 
@@ -107,10 +100,6 @@ New personal projects are in progress and will show up here and in my pinned rep
 | [ReactJS-Projects](https://github.com/AneshSM/ReactJS-Projects) | Small projects I built to learn React |
 
 </details>
-
-## Beyond code
-
-I sketch, and I post my drawings on my [Instagram art page](https://www.instagram.com/arto.beginner).
 
 ## Get in touch
 
