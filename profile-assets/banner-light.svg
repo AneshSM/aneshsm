@@ -30,10 +30,11 @@
       .pulse { transform-origin: 1050px 150px; animation: pulse 2.4s ease-out infinite; }
       @keyframes pulse { 0% { opacity: .45; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
       .lbl { opacity: 0; animation: cycle 20s linear infinite both; }
-      .l2 { animation-delay: 4s; }
-      .l3 { animation-delay: 8s; }
-      .l4 { animation-delay: 12s; }
-      .l5 { animation-delay: 16s; }
+      .l1 { opacity: 1; animation-delay: -0.5s; }
+      .l2 { animation-delay: 3.5s; }
+      .l3 { animation-delay: 7.5s; }
+      .l4 { animation-delay: 11.5s; }
+      .l5 { animation-delay: 15.5s; }
       @keyframes cycle { 0% { opacity: 0; } 2% { opacity: 1; } 18% { opacity: 1; } 20% { opacity: 0; } 100% { opacity: 0; } }
       @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0; } }
     </style>
