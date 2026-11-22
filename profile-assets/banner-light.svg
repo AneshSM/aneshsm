@@ -78,7 +78,7 @@
   <circle cx="1050" cy="150" r="11" fill="#141414" stroke="#f5f2eb" stroke-width="3"/>
 
   <!-- five label sets cycle, 4s each: delivery, data path, versioning, journey, next -->
-  <g class="hand" font-size="16" font-weight="700" fill="#3f3c39">
+  <g class="hand" font-size="20" font-weight="700" fill="#3f3c39">
     <g class="lbl l1">
       <text x="905" y="70">frontend</text>
       <text x="980" y="236">backend</text>
