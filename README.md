@@ -11,22 +11,24 @@
 
 <p>
 <picture>
-  <source media="(max-width: 640px)" srcset="profile-assets/badges-stats-mobile.svg" />
-  <img src="profile-assets/badges-stats.svg" alt="Experience: 3+ years. Stack: PERN and TypeScript. BI platforms: Qlik and Power BI. AI-assisted: Claude Code and MCP." width="100%" />
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="profile-assets/badges-stats-mobile-dark.svg" />
+  <source media="(max-width: 640px)" srcset="profile-assets/badges-stats-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/badges-stats-dark.svg" />
+  <img src="profile-assets/badges-stats-light.svg" alt="Experience: 3+ years. Stack: PERN and TypeScript. BI platforms: Qlik and Power BI. AI-assisted: Claude Code and MCP." width="100%" />
 </picture>
 </p>
 
 </div>
 
-Hi, I'm Anesh. I build web apps end to end, from the React screen down to the PostgreSQL table. The work I enjoy most is data sync, merge logic and integrations with third-party platform APIs. When I'm not coding, I sketch. My drawings are on Instagram, linked at the bottom.
+Hi, I'm Anesh. I build version control for BI apps: Git-style branches, commits, compare and merge for Qlik Sense and Power BI content instead of source code. Around that, I build web apps end to end, from the React screen down to the PostgreSQL table, and the integrations with the platform APIs they depend on. When I'm not coding, I sketch. My drawings are on Instagram, linked at the bottom.
 
 ## What I can do
 
+- **Version control for BI apps.** I build Git-style branches, commits, compare and merge for BI app content that isn't source code.
 - **Frontend.** I build React apps with forms, data fetching and long lists that render only the visible rows.
 - **Backend and data.** I design REST APIs and the PostgreSQL schemas behind them, including migrations and JSON columns.
 - **Auth and platform integrations.** I add sign-in with OAuth, SSO and JWT, and I integrate with Qlik and Power BI through their APIs.
 - **Background processing.** I move long-running work off the request path into worker threads, with retries, schedules and recovery after a crash.
-- **Version control engines.** I build Git-style branches, commits, compare and merge for content that isn't source code.
 - **AI-assisted engineering.** I use Claude Code with skills, subagents, hooks and MCP servers. I check UI changes in a real browser with Playwright before I call them done.
 
 ## Tech stack
@@ -38,7 +40,7 @@ Hi, I'm Anesh. I build web apps end to end, from the React screen down to the Po
   <img src="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,tailwind&theme=light" alt="TypeScript, JavaScript, React, Vite, Material UI, Tailwind CSS" />
 </picture>
 
-React Router, React Hook Form with Yup, TanStack Query, react-window, Web Crypto, IndexedDB, @gitgraph/js
+React Router, React Hook Form, TanStack Query, react-window
 
 **Backend and data**
 
@@ -47,18 +49,20 @@ React Router, React Hook Form with Yup, TanStack Query, react-window, Web Crypto
   <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,sequelize&theme=light" alt="Node.js, Express, PostgreSQL, Sequelize" />
 </picture>
 
-REST APIs, JWT, OAuth and SSO, WebSockets, worker threads, node-schedule, pino, PostgreSQL JSONB, Umzug migrations
+REST APIs, OAuth and SSO, WebSockets, worker threads
 
 **BI platforms**
 
 <p>
 <picture>
-  <source media="(max-width: 640px)" srcset="profile-assets/badges-bi-mobile.svg" />
-  <img src="profile-assets/badges-bi.svg" alt="Qlik Sense, Power BI, Microsoft Fabric, Microsoft Entra" width="100%" />
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="profile-assets/badges-bi-mobile-dark.svg" />
+  <source media="(max-width: 640px)" srcset="profile-assets/badges-bi-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/badges-bi-dark.svg" />
+  <img src="profile-assets/badges-bi-light.svg" alt="Qlik Sense, Power BI, Microsoft Fabric, Microsoft Entra" width="100%" />
 </picture>
 </p>
 
-Qlik Engine API (enigma.js), QRS, Qlik Cloud, Power BI REST, PBIP, Power Query M
+Qlik Engine API (enigma.js), Qlik Cloud, Power BI REST, Power Query M
 
 **Tools and AI**
 
@@ -69,8 +73,10 @@ Qlik Engine API (enigma.js), QRS, Qlik Cloud, Power BI REST, PBIP, Power Query M
 
 <p>
 <picture>
-  <source media="(max-width: 640px)" srcset="profile-assets/badges-tools-mobile.svg" />
-  <img src="profile-assets/badges-tools.svg" alt="Playwright, Prettier, Claude Code" width="100%" />
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="profile-assets/badges-tools-mobile-dark.svg" />
+  <source media="(max-width: 640px)" srcset="profile-assets/badges-tools-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/badges-tools-dark.svg" />
+  <img src="profile-assets/badges-tools-light.svg" alt="Playwright, Prettier, Claude Code" width="100%" />
 </picture>
 </p>
 
@@ -79,7 +85,7 @@ Qlik Engine API (enigma.js), QRS, Qlik Cloud, Power BI REST, PBIP, Power Query M
 - **Where it started.** My college project was [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native app for an Ayurvedic hospital with appointments, reminders and maps. After it, I taught myself Express and TypeScript. I built the same REST API twice to compare Prisma and Sequelize.
 - **Intern at Gain Insights, February 2023.** I joined the team behind Code Management, a product of our sister company SenseOps. Code Management is a version control and deployment product for Qlik Sense and, since October 2026, Power BI. Eight months in, I rebuilt its server-rendered app as a React and Node.js codebase. That codebase is still the product.
 - **Associate Engineer.** I took on Qlik Enterprise and Qlik Cloud support, and moved background jobs to worker threads.
-- **Software Engineer, now.** I own the architecture base, the versioning core and the platform integrations, including Power BI. I also set up and run the team's Claude Code workspace.
+- **Software Engineer, now.** I own the architecture base, the version control for BI apps and the platform integrations, including Power BI. I also set up and run the team's Claude Code workspace.
 
 ## How I work
 
@@ -94,7 +100,7 @@ These are the skills I'm learning next.
 
 - **Containers and CI/CD.** I want to package apps with Docker and Nginx, with pipelines that build, test and deploy on every push.
 - **A cloud platform.** I want to deploy and run my own projects on AWS.
-- **Testing as a habit.** I want unit and end-to-end tests in every project from the first commit.
+- **Test suites from day one.** I want unit and end-to-end suites set up at the first commit of every project, not added later.
 - **AI inside products.** I want to build retrieval-augmented generation (RAG) features on open-source models.
 
 I'll add to this list as I pick up tools that build on the stack above.
