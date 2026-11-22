@@ -44,41 +44,41 @@
   <rect width="1200" height="300" rx="18" filter="url(#grain)"/>
 
   <!-- hand-drawn underline -->
-  <g fill="none" stroke="#cfccc5" stroke-linecap="round" filter="url(#pencil)">
-    <path d="M64 73 C 82 70, 102 71, 122 72" stroke-width="4"/>
-    <path d="M66 76 C 86 74, 104 75, 118 74" stroke-width="1.5" opacity=".5"/>
+  <g fill="none" stroke="#efede8" stroke-linecap="round" filter="url(#pencil)">
+    <path d="M64 73 C 82 70, 102 71, 122 72" stroke-width="6"/>
+    <path d="M66 76 C 86 74, 104 75, 118 74" stroke-width="2.5" opacity=".55"/>
   </g>
 
-  <text x="64" y="132" class="sans" font-size="46" font-weight="700" fill="#ecebe7">Anesh Somanath Majalikar</text>
-  <text x="64" y="174" class="sans" font-size="22" font-weight="600" fill="#c8c5be">Software Engineer · Full Stack (PERN)</text>
-  <text x="64" y="212" class="sans" font-size="18" fill="#9b988f">React to PostgreSQL in TypeScript, plus</text>
-  <text x="64" y="238" class="sans" font-size="18" fill="#9b988f">connectors for Qlik and Power BI.</text>
+  <text x="64" y="132" class="sans" font-size="50" font-weight="800" fill="#f7f6f3">Anesh Somanath Majalikar</text>
+  <text x="64" y="174" class="sans" font-size="24" font-weight="700" fill="#dedbd4">Software Engineer · Full Stack (PERN)</text>
+  <text x="64" y="212" class="sans" font-size="19" font-weight="600" fill="#b8b4ab">React to PostgreSQL in TypeScript, plus</text>
+  <text x="64" y="238" class="sans" font-size="19" font-weight="600" fill="#b8b4ab">connectors for Qlik and Power BI.</text>
 
   <!-- git graph motif, sketched: a main stroke plus a faint second pass -->
-  <g fill="none" stroke-width="1.4" stroke-linecap="round" opacity=".45" filter="url(#pencil2)">
-    <path d="M760 150 H1150" stroke="#4a4844" transform="translate(1.5 -1.5)"/>
-    <path d="M830 150 C 860 150, 860 92, 890 92 H970 C 1000 92, 1000 150, 1050 150" stroke="#dcd9d2" transform="translate(1.5 -1.5)"/>
-    <path d="M930 150 C 955 150, 955 208, 980 208 H1020 C 1045 208, 1045 150, 1100 150" stroke="#a8a49c" transform="translate(1.5 -1.5)"/>
+  <g fill="none" stroke-width="2" stroke-linecap="round" opacity=".5" filter="url(#pencil2)">
+    <path d="M760 150 H1150" stroke="#6a6761" transform="translate(1.5 -1.5)"/>
+    <path d="M830 150 C 860 150, 860 92, 890 92 H970 C 1000 92, 1000 150, 1050 150" stroke="#efede8" transform="translate(1.5 -1.5)"/>
+    <path d="M930 150 C 955 150, 955 208, 980 208 H1020 C 1045 208, 1045 150, 1100 150" stroke="#c2beb5" transform="translate(1.5 -1.5)"/>
   </g>
-  <g fill="none" stroke-width="2.6" stroke-linecap="round" filter="url(#pencil)">
-    <path d="M760 150 H1150" stroke="#4a4844" transform="translate(0 0)"/>
-    <path d="M830 150 C 860 150, 860 92, 890 92 H970 C 1000 92, 1000 150, 1050 150" stroke="#dcd9d2" transform="translate(0 0)"/>
-    <path d="M930 150 C 955 150, 955 208, 980 208 H1020 C 1045 208, 1045 150, 1100 150" stroke="#a8a49c" transform="translate(0 0)"/>
+  <g fill="none" stroke-width="4.2" stroke-linecap="round" filter="url(#pencil)">
+    <path d="M760 150 H1150" stroke="#6a6761" transform="translate(0 0)"/>
+    <path d="M830 150 C 860 150, 860 92, 890 92 H970 C 1000 92, 1000 150, 1050 150" stroke="#efede8" transform="translate(0 0)"/>
+    <path d="M930 150 C 955 150, 955 208, 980 208 H1020 C 1045 208, 1045 150, 1100 150" stroke="#c2beb5" transform="translate(0 0)"/>
   </g>
-  <g stroke-width="2.4" filter="url(#pencilsoft)">
-    <circle cx="790" cy="150" r="7" fill="#1f1f21" stroke="#4a4844"/>
-    <circle cx="830" cy="150" r="7" fill="#1f1f21" stroke="#4a4844"/>
-    <circle cx="905" cy="92" r="7" fill="#1f1f21" stroke="#dcd9d2"/>
-    <circle cx="955" cy="92" r="7" fill="#1f1f21" stroke="#dcd9d2"/>
-    <circle cx="930" cy="150" r="7" fill="#1f1f21" stroke="#4a4844"/>
-    <circle cx="1000" cy="208" r="7" fill="#1f1f21" stroke="#a8a49c"/>
-    <circle cx="1100" cy="150" r="7" fill="#1f1f21" stroke="#a8a49c"/>
+  <g stroke-width="3.4" filter="url(#pencilsoft)">
+    <circle cx="790" cy="150" r="8" fill="#1f1f21" stroke="#6a6761"/>
+    <circle cx="830" cy="150" r="8" fill="#1f1f21" stroke="#6a6761"/>
+    <circle cx="905" cy="92" r="8" fill="#1f1f21" stroke="#efede8"/>
+    <circle cx="955" cy="92" r="8" fill="#1f1f21" stroke="#efede8"/>
+    <circle cx="930" cy="150" r="8" fill="#1f1f21" stroke="#6a6761"/>
+    <circle cx="1000" cy="208" r="8" fill="#1f1f21" stroke="#c2beb5"/>
+    <circle cx="1100" cy="150" r="8" fill="#1f1f21" stroke="#c2beb5"/>
   </g>
-  <circle class="pulse" cx="1050" cy="150" r="9" fill="#cfccc5"/>
-  <circle cx="1050" cy="150" r="9" fill="#ecebe7" stroke="#1f1f21" stroke-width="2.4"/>
+  <circle class="pulse" cx="1050" cy="150" r="11" fill="#e2dfd8"/>
+  <circle cx="1050" cy="150" r="11" fill="#f7f6f3" stroke="#1f1f21" stroke-width="3"/>
 
   <!-- five label sets cycle, 4s each: delivery, data path, versioning, journey, next -->
-  <g class="hand" font-size="14" fill="#8f8b83">
+  <g class="hand" font-size="16" font-weight="700" fill="#bdb9b0">
     <g class="lbl l1">
       <text x="905" y="70">frontend</text>
       <text x="980" y="236">backend</text>

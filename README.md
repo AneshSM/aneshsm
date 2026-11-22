@@ -7,7 +7,7 @@
 
 <br><br>
 
-<p><img src="https://img.shields.io/badge/experience-3%2B_years-3a3a3a?style=for-the-badge" alt="Experience: 3+ years" /> <img src="https://img.shields.io/badge/BI_platforms-Qlik_%C2%B7_Power_BI-4a4a4a?style=for-the-badge" alt="BI platforms: Qlik and Power BI" /> <img src="https://img.shields.io/badge/stack-PERN_%2B_TypeScript-5a5a5a?style=for-the-badge" alt="Stack: PERN and TypeScript" /></p>
+<p><img src="https://img.shields.io/badge/experience-3%2B_years-c2410c?style=for-the-badge" alt="Experience: 3+ years" /> <img src="https://img.shields.io/badge/AI--assisted-Claude_Code_%2B_MCP-7c3aed?style=for-the-badge" alt="AI-assisted: Claude Code and MCP" /> <img src="https://img.shields.io/badge/BI_platforms-Qlik_%C2%B7_Power_BI-047857?style=for-the-badge" alt="BI platforms: Qlik and Power BI" /> <img src="https://img.shields.io/badge/stack-PERN_%2B_TypeScript-1d4ed8?style=for-the-badge" alt="Stack: PERN and TypeScript" /></p>
 
 </div>
 
