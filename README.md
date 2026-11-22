@@ -36,8 +36,8 @@ Hi, I'm Anesh. I build version control for BI apps: Git-style branches, commits,
 **Languages and frontend**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cvite%2Cmaterialui%2Ctailwind&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,materialui,tailwind&theme=light" alt="TypeScript, JavaScript, React, Vite, Material UI, Tailwind CSS" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons-frontend-dark.svg" />
+  <img src="profile-assets/icons-frontend-light.svg" alt="TypeScript, JavaScript, React, Vite, Material UI, Tailwind CSS" />
 </picture>
 
 React Router, React Hook Form, TanStack Query, react-window
@@ -45,8 +45,8 @@ React Router, React Hook Form, TanStack Query, react-window
 **Backend and data**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cexpress%2Cpostgres%2Csequelize&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,sequelize&theme=light" alt="Node.js, Express, PostgreSQL, Sequelize" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons-backend-dark.svg" />
+  <img src="profile-assets/icons-backend-light.svg" alt="Node.js, Express, PostgreSQL, Sequelize" />
 </picture>
 
 REST APIs, OAuth and SSO, WebSockets, worker threads
@@ -67,8 +67,8 @@ Qlik Engine API (enigma.js), Qlik Cloud, Power BI REST, Power Query M
 **Tools and AI**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git%2Cgithub%2Cbitbucket%2Cwebpack%2Cpostman%2Cfigma&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=git,github,bitbucket,webpack,postman,figma&theme=light" alt="Git, GitHub, Bitbucket, Webpack, Postman, Figma" />
+  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons-tools-dark.svg" />
+  <img src="profile-assets/icons-tools-light.svg" alt="Git, GitHub, Bitbucket, Webpack, Postman, Figma" />
 </picture>
 
 <p>
@@ -131,6 +131,6 @@ New personal projects are in progress and will show up here and in my pinned rep
 **Ask me about:** integrating with BI platforms, compare and merge logic, background job pipelines, and working with Claude Code.
 
 <p>
-  <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" /></a>&nbsp;
-  <a href="https://www.instagram.com/arto.beginner"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram art page" height="40" /></a>
+  <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-linkedin-dark.svg" /><img src="profile-assets/contact-linkedin-light.svg" alt="LinkedIn" height="40" /></picture></a>&nbsp;
+  <a href="https://www.instagram.com/arto.beginner"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-instagram-dark.svg" /><img src="profile-assets/contact-instagram-light.svg" alt="Instagram art page" height="40" /></picture></a>
 </p>
