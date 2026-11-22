@@ -1,16 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="188" viewBox="0 0 600 188" role="img" aria-labelledby="t">
   <title id="t">Experience: 3+ years. Stack: PERN and TypeScript. BI platforms: Qlik and Power BI. AI-assisted: Claude Code and MCP.</title>
   <style>text { font-family: 'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif; }</style>
-  <rect x="0.75" y="0.75" width="292.5" height="86.5" rx="10" fill="#ebe6dc" stroke="#d3ccbe" stroke-width="1.5"/>
+  <defs>
+    <filter id="pencil" x="-2%" y="-10%" width="104%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="pencil2" x="-2%" y="-10%" width="104%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="2" seed="11" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="290" height="84" rx="10" fill="#ebe6dc"/>
+  <rect x="3.5" y="2.5" width="288" height="82" rx="10" fill="none" stroke="#c2410c" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="2" y="2" width="290" height="84" rx="10" fill="none" stroke="#c2410c" stroke-width="2.2" filter="url(#pencil)"/>
   <text x="20" y="34" font-size="15" font-weight="700" letter-spacing="1.5" fill="#4a4744">EXPERIENCE</text>
   <text x="20" y="68" font-size="24" font-weight="700" fill="#141414">3+ years</text>
-  <rect x="306.75" y="0.75" width="292.5" height="86.5" rx="10" fill="#ebe6dc" stroke="#d3ccbe" stroke-width="1.5"/>
+  <g fill="none" stroke="#c2410c" stroke-linecap="round" filter="url(#pencil)">
+    <path d="M20 80 c 16 -2, 34 -2, 52 -1" stroke-width="3.5"/>
+    <path d="M22 82.5 c 18 -1.5, 32 -1, 44 -1.5" stroke-width="1.5" opacity=".55"/>
+  </g>
+  <rect x="308" y="2" width="290" height="84" rx="10" fill="#ebe6dc"/>
+  <rect x="309.5" y="2.5" width="288" height="82" rx="10" fill="none" stroke="#1d4ed8" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="308" y="2" width="290" height="84" rx="10" fill="none" stroke="#1d4ed8" stroke-width="2.2" filter="url(#pencil)"/>
   <text x="326" y="34" font-size="15" font-weight="700" letter-spacing="1.5" fill="#4a4744">STACK</text>
   <text x="326" y="68" font-size="24" font-weight="700" fill="#141414">PERN + TypeScript</text>
-  <rect x="0.75" y="100.75" width="292.5" height="86.5" rx="10" fill="#ebe6dc" stroke="#d3ccbe" stroke-width="1.5"/>
+  <g fill="none" stroke="#1d4ed8" stroke-linecap="round" filter="url(#pencil)">
+    <path d="M326 80 c 16 -2, 34 -2, 52 -1" stroke-width="3.5"/>
+    <path d="M328 82.5 c 18 -1.5, 32 -1, 44 -1.5" stroke-width="1.5" opacity=".55"/>
+  </g>
+  <rect x="2" y="102" width="290" height="84" rx="10" fill="#ebe6dc"/>
+  <rect x="3.5" y="102.5" width="288" height="82" rx="10" fill="none" stroke="#047857" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="2" y="102" width="290" height="84" rx="10" fill="none" stroke="#047857" stroke-width="2.2" filter="url(#pencil)"/>
   <text x="20" y="134" font-size="15" font-weight="700" letter-spacing="1.5" fill="#4a4744">BI PLATFORMS</text>
   <text x="20" y="168" font-size="24" font-weight="700" fill="#141414">Qlik · Power BI</text>
-  <rect x="306.75" y="100.75" width="292.5" height="86.5" rx="10" fill="#ebe6dc" stroke="#d3ccbe" stroke-width="1.5"/>
+  <g fill="none" stroke="#047857" stroke-linecap="round" filter="url(#pencil)">
+    <path d="M20 180 c 16 -2, 34 -2, 52 -1" stroke-width="3.5"/>
+    <path d="M22 182.5 c 18 -1.5, 32 -1, 44 -1.5" stroke-width="1.5" opacity=".55"/>
+  </g>
+  <rect x="308" y="102" width="290" height="84" rx="10" fill="#ebe6dc"/>
+  <rect x="309.5" y="102.5" width="288" height="82" rx="10" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="308" y="102" width="290" height="84" rx="10" fill="none" stroke="#7c3aed" stroke-width="2.2" filter="url(#pencil)"/>
   <text x="326" y="134" font-size="15" font-weight="700" letter-spacing="1.5" fill="#4a4744">AI-ASSISTED</text>
   <text x="326" y="168" font-size="24" font-weight="700" fill="#141414">Claude Code + MCP</text>
+  <g fill="none" stroke="#7c3aed" stroke-linecap="round" filter="url(#pencil)">
+    <path d="M326 180 c 16 -2, 34 -2, 52 -1" stroke-width="3.5"/>
+    <path d="M328 182.5 c 18 -1.5, 32 -1, 44 -1.5" stroke-width="1.5" opacity=".55"/>
+  </g>
 </svg>
