@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Count full years since February 2023
-        run: bash .github/scripts/update-experience.sh
+      - name: Regenerate badges with full years since February 2023
+        run: node .github/scripts/badges.js
 
       - name: Commit when the number changes
         run: |

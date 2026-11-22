@@ -27,7 +27,7 @@
     <style>
       .sans { font-family: 'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
       .hand { font-family: 'Segoe Print', 'Bradley Hand', 'Comic Sans MS', 'Comic Neue', cursive; }
-      .pulse { transform-origin: 1050px 150px; animation: pulse 2.4s ease-out infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
       @keyframes pulse { 0% { opacity: .45; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
       .lbl { opacity: 0; animation: cycle 20s linear infinite both; }
       .l1 { opacity: 1; animation-delay: -0.5s; }
@@ -40,15 +40,14 @@
     </style>
   </defs>
 
-  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="18" filter="url(#grain)"/>
+  <rect x="0" y="0" width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="300" rx="18" filter="url(#grain)"/>
 
   <!-- hand-drawn underline -->
   <g fill="none" stroke="#efede8" stroke-linecap="round" filter="url(#pencil)">
-    <path d="M64 73 C 82 70, 102 71, 122 72" stroke-width="6"/>
-    <path d="M66 76 C 86 74, 104 75, 118 74" stroke-width="2.5" opacity=".55"/>
+    <path d="M64 73 c 18 -3, 38 -2, 58 -1" stroke-width="6"/>
+    <path d="M66 76 c 20 -2, 38 -1, 52 -2" stroke-width="2.5" opacity=".55"/>
   </g>
-
   <text x="64" y="132" class="sans" font-size="50" font-weight="800" fill="#f7f6f3">Anesh Somanath Majalikar</text>
   <text x="64" y="174" class="sans" font-size="24" font-weight="700" fill="#dedbd4">Software Engineer · Full Stack (PERN)</text>
   <text x="64" y="212" class="sans" font-size="19" font-weight="600" fill="#b8b4ab">React to PostgreSQL in TypeScript, plus</text>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-labelledby="t">
+  <title id="t">Experience: 3+ years. Stack: PERN and TypeScript. BI platforms: Qlik and Power BI. AI-assisted: Claude Code and MCP.</title>
+  <style>text { font-family: 'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif; }</style>
+  <rect x="0" y="0" width="291" height="80" rx="10" fill="#c2410c"/>
+  <text x="20" y="31" font-size="14" font-weight="700" letter-spacing="1.5" fill="#ffffff" fill-opacity=".85">EXPERIENCE</text>
+  <text x="20" y="62" font-size="23" font-weight="700" fill="#ffffff">3+ years</text>
+  <rect x="303" y="0" width="291" height="80" rx="10" fill="#1d4ed8"/>
+  <text x="323" y="31" font-size="14" font-weight="700" letter-spacing="1.5" fill="#ffffff" fill-opacity=".85">STACK</text>
+  <text x="323" y="62" font-size="23" font-weight="700" fill="#ffffff">PERN + TypeScript</text>
+  <rect x="606" y="0" width="291" height="80" rx="10" fill="#047857"/>
+  <text x="626" y="31" font-size="14" font-weight="700" letter-spacing="1.5" fill="#ffffff" fill-opacity=".85">BI PLATFORMS</text>
+  <text x="626" y="62" font-size="23" font-weight="700" fill="#ffffff">Qlik · Power BI</text>
+  <rect x="909" y="0" width="291" height="80" rx="10" fill="#7c3aed"/>
+  <text x="929" y="31" font-size="14" font-weight="700" letter-spacing="1.5" fill="#ffffff" fill-opacity=".85">AI-ASSISTED</text>
+  <text x="929" y="62" font-size="23" font-weight="700" fill="#ffffff">Claude Code + MCP</text>
+</svg>
