@@ -11,39 +11,39 @@
       <feDisplacementMap in="SourceGraphic" in2="n" scale="4" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
   </defs>
-  <rect x="2" y="2" width="290" height="84" rx="10" fill="#1d1d1f"/>
-  <rect x="3.5" y="2.5" width="288" height="82" rx="10" fill="none" stroke="#c2410c" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
-  <rect x="2" y="2" width="290" height="84" rx="10" fill="none" stroke="#c2410c" stroke-width="2.2" filter="url(#pencil)"/>
+  <rect x="2" y="2" width="290" height="84" rx="10" fill="#303034"/>
+  <rect x="3.5" y="2.5" width="288" height="82" rx="10" fill="none" stroke="#c95829" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="2" y="2" width="290" height="84" rx="10" fill="none" stroke="#c95829" stroke-width="2.2" filter="url(#pencil)"/>
   <text x="20" y="34" font-size="15" font-weight="700" letter-spacing="1.5" fill="#b8b4ab">EXPERIENCE</text>
   <text x="20" y="68" font-size="24" font-weight="700" fill="#efede8">3+ years</text>
-  <g fill="none" stroke="#c2410c" stroke-linecap="round" filter="url(#pencil)">
+  <g fill="none" stroke="#c95829" stroke-linecap="round" filter="url(#pencil)">
     <path d="M20 80 c 16 -2, 34 -2, 52 -1" stroke-width="3.5"/>
     <path d="M22 82.5 c 18 -1.5, 32 -1, 44 -1.5" stroke-width="1.5" opacity=".55"/>
   </g>
-  <rect x="308" y="2" width="290" height="84" rx="10" fill="#1d1d1f"/>
-  <rect x="309.5" y="2.5" width="288" height="82" rx="10" fill="none" stroke="#3460dc" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
-  <rect x="308" y="2" width="290" height="84" rx="10" fill="none" stroke="#3460dc" stroke-width="2.2" filter="url(#pencil)"/>
+  <rect x="308" y="2" width="290" height="84" rx="10" fill="#303034"/>
+  <rect x="309.5" y="2.5" width="288" height="82" rx="10" fill="none" stroke="#4f75e1" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="308" y="2" width="290" height="84" rx="10" fill="none" stroke="#4f75e1" stroke-width="2.2" filter="url(#pencil)"/>
   <text x="326" y="34" font-size="15" font-weight="700" letter-spacing="1.5" fill="#b8b4ab">STACK</text>
   <text x="326" y="68" font-size="24" font-weight="700" fill="#efede8">PERN + TypeScript</text>
-  <g fill="none" stroke="#3460dc" stroke-linecap="round" filter="url(#pencil)">
+  <g fill="none" stroke="#4f75e1" stroke-linecap="round" filter="url(#pencil)">
     <path d="M326 80 c 16 -2, 34 -2, 52 -1" stroke-width="3.5"/>
     <path d="M328 82.5 c 18 -1.5, 32 -1, 44 -1.5" stroke-width="1.5" opacity=".55"/>
   </g>
-  <rect x="2" y="102" width="290" height="84" rx="10" fill="#1d1d1f"/>
-  <rect x="3.5" y="102.5" width="288" height="82" rx="10" fill="none" stroke="#047857" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
-  <rect x="2" y="102" width="290" height="84" rx="10" fill="none" stroke="#047857" stroke-width="2.2" filter="url(#pencil)"/>
+  <rect x="2" y="102" width="290" height="84" rx="10" fill="#303034"/>
+  <rect x="3.5" y="102.5" width="288" height="82" rx="10" fill="none" stroke="#22886b" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="2" y="102" width="290" height="84" rx="10" fill="none" stroke="#22886b" stroke-width="2.2" filter="url(#pencil)"/>
   <text x="20" y="134" font-size="15" font-weight="700" letter-spacing="1.5" fill="#b8b4ab">BI PLATFORMS</text>
   <text x="20" y="168" font-size="24" font-weight="700" fill="#efede8">Qlik · Power BI</text>
-  <g fill="none" stroke="#047857" stroke-linecap="round" filter="url(#pencil)">
+  <g fill="none" stroke="#22886b" stroke-linecap="round" filter="url(#pencil)">
     <path d="M20 180 c 16 -2, 34 -2, 52 -1" stroke-width="3.5"/>
     <path d="M22 182.5 c 18 -1.5, 32 -1, 44 -1.5" stroke-width="1.5" opacity=".55"/>
   </g>
-  <rect x="308" y="102" width="290" height="84" rx="10" fill="#1d1d1f"/>
-  <rect x="309.5" y="102.5" width="288" height="82" rx="10" fill="none" stroke="#7f3eed" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
-  <rect x="308" y="102" width="290" height="84" rx="10" fill="none" stroke="#7f3eed" stroke-width="2.2" filter="url(#pencil)"/>
+  <rect x="308" y="102" width="290" height="84" rx="10" fill="#303034"/>
+  <rect x="309.5" y="102.5" width="288" height="82" rx="10" fill="none" stroke="#915af0" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="308" y="102" width="290" height="84" rx="10" fill="none" stroke="#915af0" stroke-width="2.2" filter="url(#pencil)"/>
   <text x="326" y="134" font-size="15" font-weight="700" letter-spacing="1.5" fill="#b8b4ab">AI-ASSISTED</text>
   <text x="326" y="168" font-size="24" font-weight="700" fill="#efede8">Claude Code + MCP</text>
-  <g fill="none" stroke="#7f3eed" stroke-linecap="round" filter="url(#pencil)">
+  <g fill="none" stroke="#915af0" stroke-linecap="round" filter="url(#pencil)">
     <path d="M326 180 c 16 -2, 34 -2, 52 -1" stroke-width="3.5"/>
     <path d="M328 182.5 c 18 -1.5, 32 -1, 44 -1.5" stroke-width="1.5" opacity=".55"/>
   </g>

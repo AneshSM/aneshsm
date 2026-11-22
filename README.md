@@ -35,19 +35,25 @@ Hi, I'm Anesh. I build version control for BI apps: Git-style branches, commits,
 
 **Languages and frontend**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons-frontend-dark.svg" />
-  <img src="profile-assets/icons-frontend-light.svg" alt="TypeScript, JavaScript, React, Vite, Material UI, Tailwind CSS" />
-</picture>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/typescript-dark.svg" /><img src="profile-assets/icons/typescript-light.svg" alt="TypeScript" title="TypeScript" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/javascript-dark.svg" /><img src="profile-assets/icons/javascript-light.svg" alt="JavaScript" title="JavaScript" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/react-dark.svg" /><img src="profile-assets/icons/react-light.svg" alt="React" title="React" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/vite-dark.svg" /><img src="profile-assets/icons/vite-light.svg" alt="Vite" title="Vite" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/mui-dark.svg" /><img src="profile-assets/icons/mui-light.svg" alt="Material UI" title="Material UI" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/tailwindcss-dark.svg" /><img src="profile-assets/icons/tailwindcss-light.svg" alt="Tailwind CSS" title="Tailwind CSS" width="48" height="48" /></picture>
+</p>
 
 React Router, React Hook Form, TanStack Query, react-window
 
 **Backend and data**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons-backend-dark.svg" />
-  <img src="profile-assets/icons-backend-light.svg" alt="Node.js, Express, PostgreSQL, Sequelize" />
-</picture>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/nodedotjs-dark.svg" /><img src="profile-assets/icons/nodedotjs-light.svg" alt="Node.js" title="Node.js" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/express-dark.svg" /><img src="profile-assets/icons/express-light.svg" alt="Express" title="Express" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/postgresql-dark.svg" /><img src="profile-assets/icons/postgresql-light.svg" alt="PostgreSQL" title="PostgreSQL" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/sequelize-dark.svg" /><img src="profile-assets/icons/sequelize-light.svg" alt="Sequelize" title="Sequelize" width="48" height="48" /></picture>
+</p>
 
 REST APIs, OAuth and SSO, WebSockets, worker threads
 
@@ -66,10 +72,14 @@ Qlik Engine API (enigma.js), Qlik Cloud, Power BI REST, Power Query M
 
 **Tools and AI**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons-tools-dark.svg" />
-  <img src="profile-assets/icons-tools-light.svg" alt="Git, GitHub, Bitbucket, Webpack, Postman, Figma" />
-</picture>
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/git-dark.svg" /><img src="profile-assets/icons/git-light.svg" alt="Git" title="Git" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/github-dark.svg" /><img src="profile-assets/icons/github-light.svg" alt="GitHub" title="GitHub" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/bitbucket-dark.svg" /><img src="profile-assets/icons/bitbucket-light.svg" alt="Bitbucket" title="Bitbucket" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/webpack-dark.svg" /><img src="profile-assets/icons/webpack-light.svg" alt="Webpack" title="Webpack" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/postman-dark.svg" /><img src="profile-assets/icons/postman-light.svg" alt="Postman" title="Postman" width="48" height="48" /></picture>&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/figma-dark.svg" /><img src="profile-assets/icons/figma-light.svg" alt="Figma" title="Figma" width="48" height="48" /></picture>
+</p>
 
 <p>
 <picture>
@@ -131,6 +141,6 @@ New personal projects are in progress and will show up here and in my pinned rep
 **Ask me about:** integrating with BI platforms, compare and merge logic, background job pipelines, and working with Claude Code.
 
 <p>
-  <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-linkedin-dark.svg" /><img src="profile-assets/contact-linkedin-light.svg" alt="LinkedIn" height="40" /></picture></a>&nbsp;
-  <a href="https://www.instagram.com/arto.beginner"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-instagram-dark.svg" /><img src="profile-assets/contact-instagram-light.svg" alt="Instagram art page" height="40" /></picture></a>
+  <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-linkedin-dark.svg" /><img src="profile-assets/contact-linkedin-light.svg" alt="LinkedIn" title="LinkedIn" height="40" /></picture></a>&nbsp;
+  <a href="https://www.instagram.com/arto.beginner"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-instagram-dark.svg" /><img src="profile-assets/contact-instagram-light.svg" alt="Instagram art page" title="Instagram art page" height="40" /></picture></a>
 </p>

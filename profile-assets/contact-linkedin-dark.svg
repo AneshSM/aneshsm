@@ -10,8 +10,8 @@
       <feDisplacementMap in="SourceGraphic" in2="n" scale="3" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
   </defs>
-  <rect x="2" y="2" width="44" height="44" rx="10" fill="#1d1d1f"/>
-  <rect x="3" y="2.5" width="43" height="43" rx="10" fill="none" stroke="#0f69c3" stroke-width="1.2" opacity=".45" filter="url(#pencil2)"/>
-  <rect x="2" y="2" width="44" height="44" rx="10" fill="none" stroke="#0f69c3" stroke-width="2" filter="url(#pencil)"/>
-  <text x="24" y="32" text-anchor="middle" font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#0f69c3">in</text>
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="#303034"/>
+  <rect x="3" y="2.5" width="43" height="43" rx="10" fill="none" stroke="#2c7bcb" stroke-width="1.2" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="none" stroke="#2c7bcb" stroke-width="2" filter="url(#pencil)"/>
+  <text x="24" y="32" text-anchor="middle" font-family="'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#2c7bcb">in</text>
 </svg>
