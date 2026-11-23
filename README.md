@@ -20,11 +20,10 @@
 
 </div>
 
-Hi, I'm Anesh. I build **version control for BI apps**: Git-style branches, commits, compare and merge for Qlik Sense and Power BI. I also build full-stack web apps, from React down to PostgreSQL. Off the keyboard, I sketch.
+Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I pick up a new domain fast and build end to end once I understand the requirements. Most recently: version control and integrations for Qlik Sense and Power BI. Off the keyboard, I sketch.
 
 ## What I do
 
-- **Version control for BI apps**: branch, commit, compare and merge
 - **Frontend**: React, forms, data fetching, virtualised lists
 - **Backend**: REST APIs, PostgreSQL schemas and migrations
 - **Integrations**: OAuth, SSO and JWT; Qlik and Power BI APIs
@@ -130,7 +129,7 @@ New projects are on the way. Most of my work so far is in private company repos.
 
 ## Get in touch
 
-**Ask me about** BI platform integrations, compare and merge, job pipelines, or Claude Code.
+**Ask me about** BI platform integrations, job pipelines, or Claude Code.
 
 <p>
   <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-linkedin-dark.svg" /><img src="profile-assets/contact-linkedin-light.svg" alt="LinkedIn" title="LinkedIn" height="40" /></picture></a>&nbsp;
