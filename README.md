@@ -134,7 +134,7 @@ New projects are on the way. Most of my work so far is in private company repos.
 
 ## Contact
 
-**Ask me about** BI platform integrations, job pipelines, or Claude Code.
+**Ask me about** third-party API integrations, job pipelines, or Claude Code.
 
 <p>
   <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-linkedin-dark.svg" /><img src="profile-assets/contact-linkedin-light.svg" alt="LinkedIn" title="LinkedIn" height="40" /></picture></a>&nbsp;
