@@ -20,16 +20,16 @@
 
 </div>
 
-Hi, I'm Anesh. I build version control for BI apps: Git-style branches, commits, compare and merge for Qlik Sense and Power BI content instead of source code. Around that, I build web apps end to end, from the React screen down to the PostgreSQL table, and the integrations with the platform APIs they depend on. When I'm not coding, I sketch. My drawings are on Instagram, linked at the bottom.
+Hi, I'm Anesh. I build **version control for BI apps**: Git-style branches, commits, compare and merge for Qlik Sense and Power BI. I also build full-stack web apps, from React down to PostgreSQL. Off the keyboard, I sketch.
 
-## What I can do
+## What I do
 
-- **Version control for BI apps.** I build Git-style branches, commits, compare and merge for BI app content that isn't source code.
-- **Frontend.** I build React apps with forms, data fetching and long lists that render only the visible rows.
-- **Backend and data.** I design REST APIs and the PostgreSQL schemas behind them, including migrations and JSON columns.
-- **Auth and platform integrations.** I add sign-in with OAuth, SSO and JWT, and I integrate with Qlik and Power BI through their APIs.
-- **Background processing.** I move long-running work off the request path into worker threads, with retries, schedules and recovery after a crash.
-- **AI-assisted engineering.** I use Claude Code with skills, subagents, hooks and MCP servers. I check UI changes in a real browser with Playwright before I call them done.
+- **Version control for BI apps**: branch, commit, compare and merge
+- **Frontend**: React, forms, data fetching, virtualised lists
+- **Backend**: REST APIs, PostgreSQL schemas and migrations
+- **Integrations**: OAuth, SSO and JWT; Qlik and Power BI APIs
+- **Background jobs**: worker threads with retries and schedules
+- **AI-assisted engineering**: Claude Code, MCP, Playwright checks
 
 ## Tech stack
 
@@ -90,55 +90,47 @@ Qlik Engine API (enigma.js), Qlik Cloud, Power BI REST, Power Query M
 </picture>
 </p>
 
-## How I got here
+## Journey
 
-- **Where it started.** My college project was [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native app for an Ayurvedic hospital with appointments, reminders and maps. After it, I taught myself Express and TypeScript. I built the same REST API twice to compare Prisma and Sequelize.
-- **Intern at Gain Insights, February 2023.** I joined the team behind Code Management, a product of our sister company SenseOps. Code Management is a version control and deployment product for Qlik Sense and, since October 2026, Power BI. Eight months in, I rebuilt its server-rendered app as a React and Node.js codebase. That codebase is still the product.
-- **Associate Engineer.** I took on Qlik Enterprise and Qlik Cloud support, and moved background jobs to worker threads.
-- **Software Engineer, now.** I own the architecture base, the version control for BI apps and the platform integrations, including Power BI. I also set up and run the team's Claude Code workspace.
+- **Software Engineer, now**: I own the architecture, version control for BI apps, the Qlik and Power BI integrations, and the team's Claude Code setup
+- **Associate Engineer**: Qlik Enterprise and Qlik Cloud support; moved background jobs to worker threads
+- **Intern, Gain Insights, Feb 2023**: rebuilt SenseOps Code Management as a React and Node.js app, which is still the product
+- **Before that**: [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native hospital app (college project)
 
 ## How I work
 
-- I ship features as matching client and server changes, and I fix what breaks in my areas, whoever wrote it.
-- I record design decisions in ADRs, including the ones a later ADR replaces.
-- I write commits in Conventional Commits format, with the reason in the body.
-- I treat AI output as a draft. It gets tests, a browser check and a review before it merges.
+- Client and server changes ship together
+- Decisions go in ADRs; commits follow Conventional Commits
+- AI output is a draft until it has tests, a browser check and a review
 
-## Where I'm heading
+## Learning next
 
-These are the skills I'm learning next.
-
-- **Containers and CI/CD.** I want to package apps with Docker and Nginx, with pipelines that build, test and deploy on every push.
-- **A cloud platform.** I want to deploy and run my own projects on AWS.
-- **Test suites from day one.** I want unit and end-to-end suites set up at the first commit of every project, not added later.
-- **AI inside products.** I want to build retrieval-augmented generation (RAG) features on open-source models.
-
-I'll add to this list as I pick up tools that build on the stack above.
+Docker and CI/CD · AWS · test suites from day one · RAG on open-source models
 
 ## Projects
 
-New personal projects are in progress and will show up here and in my pinned repositories. Most of my work so far has been in private company repositories, which is why my public activity is low.
+New projects are on the way. Most of my work so far is in private company repos.
 
 <details>
 <summary><b>Earlier learning projects</b></summary>
 
 <br>
 
-| Project | What it explored |
+| Project | What it is |
 |---|---|
-| [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya) | My college major project, a React Native patient app for an Ayurvedic hospital |
-| [backend-js-template](https://github.com/AneshSM/backend-js-template) | A minimal Express.js backend template with ES modules |
-| [express-typescript-setup](https://github.com/AneshSM/express-typescript-setup) | An Express and TypeScript boilerplate |
-| [restful_API-PostgreSQL_Prisma](https://github.com/AneshSM/restful_API-PostgreSQL_Prisma) | A REST API with Express, TypeScript, Prisma and PostgreSQL |
-| [restful_API-PostgreSQL_Sequelize](https://github.com/AneshSM/restful_API-PostgreSQL_Sequelize) | The same REST API on Sequelize, to compare ORMs |
-| [vite-react_ts-mui-setup](https://github.com/AneshSM/vite-react_ts-mui-setup) | A Vite, React, TypeScript and Material UI starter |
-| [ReactJS-Projects](https://github.com/AneshSM/ReactJS-Projects) | Small projects I built to learn React |
+| [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya) | React Native hospital app |
+| [backend-js-template](https://github.com/AneshSM/backend-js-template) | Express.js template |
+| [express-typescript-setup](https://github.com/AneshSM/express-typescript-setup) | Express and TypeScript boilerplate |
+| [restful_API-PostgreSQL_Prisma](https://github.com/AneshSM/restful_API-PostgreSQL_Prisma) | REST API on Prisma |
+| [restful_API-PostgreSQL_Sequelize](https://github.com/AneshSM/restful_API-PostgreSQL_Sequelize) | The same API on Sequelize |
+| [vite-react_ts-mui-setup](https://github.com/AneshSM/vite-react_ts-mui-setup) | Vite, React and MUI starter |
+| [ReactJS-Projects](https://github.com/AneshSM/ReactJS-Projects) | Small React projects |
 
 </details>
 
 ## Get in touch
 
-**Ask me about:** integrating with BI platforms, compare and merge logic, background job pipelines, and working with Claude Code.
+**Ask me about** BI platform integrations, compare and merge, job pipelines, or Claude Code.
 
 <p>
   <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-linkedin-dark.svg" /><img src="profile-assets/contact-linkedin-light.svg" alt="LinkedIn" title="LinkedIn" height="40" /></picture></a>&nbsp;
