@@ -20,7 +20,7 @@
 
 </div>
 
-Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I pick up a new domain fast and build end to end once I understand the requirements. Most recently: version control and integrations for Qlik Sense and Power BI. Off the keyboard, I sketch.
+Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I pick up a new domain fast and build end to end once I understand the requirements. Most recently: third-party platform integrations and background jobs for a full-stack web app. Off the keyboard, I sketch.
 
 ## Skills
 
@@ -87,21 +87,19 @@ Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I
 
 ## Experience
 
-- **Software Engineer, now**: I own the architecture, version control for BI apps, the Qlik and Power BI integrations, and the team's Claude Code setup
-- **Associate Engineer**: Qlik Enterprise and Qlik Cloud support; moved background jobs to worker threads
-- **Intern, Gain Insights, Feb 2023**: rebuilt SenseOps Code Management as a React and Node.js app, which is still the product
+- **Software Engineer**: I own the architecture of a full-stack web app and its third-party integrations, and the team's AI-assisted workflow
+- **Associate Engineer**: I built platform integrations and moved long-running work to background worker threads
+- **Intern**: I rebuilt a legacy tool as a React and Node.js app
 - **Before that**: [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native hospital app (college project)
 
 ## Highlights
 
-- Version control for Qlik and Power BI apps: branches, compare, merge with approval, commit graph
-- Qlik Enterprise and Qlik Cloud: server setup, app clone, bulk repository creation
-- Power BI support: repositories from workspaces; compare, copy and deploy reports and semantic models
-- Environment cleanup: find unused apps, then quarantine, purge or restore them in background jobs
-- Regression testing: compare app versions to catch data and visual changes
-- Technical docs per app version; job notification mail
-- Security hardening and structured logging
-- Fixing and stabilising teammates' features; resolving merge conflicts across branches
+- Built features end to end, from database schema to UI
+- Integrated third-party platform APIs with OAuth, SSO and token handling
+- Ran bulk and long-running work in background jobs with retries and schedules
+- Built compare and diff views for versioned data
+- Added security hardening and structured logging
+- Fixed and stabilised features written by others, and resolved merge conflicts across branches
 
 ## Approach
 
