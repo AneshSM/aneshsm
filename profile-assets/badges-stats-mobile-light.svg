@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="188" viewBox="0 0 600 188" role="img" aria-labelledby="t">
-  <title id="t">Experience: 3+ years. Stack: PERN and TypeScript. BI platforms: Qlik and Power BI. AI-assisted: Claude Code and MCP.</title>
+  <title id="t">Experience: 3+ years. Stack: PERN and TypeScript. Web and mobile: React and React Native. AI-assisted: Claude Code and MCP.</title>
   <style>text { font-family: 'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif; }</style>
   <defs>
     <filter id="pencil" x="-2%" y="-10%" width="104%" height="120%">
@@ -32,8 +32,8 @@
   <rect x="2" y="102" width="290" height="84" rx="10" fill="#ebe6dc"/>
   <rect x="3.5" y="102.5" width="288" height="82" rx="10" fill="none" stroke="#047857" stroke-width="1.5" opacity=".45" filter="url(#pencil2)"/>
   <rect x="2" y="102" width="290" height="84" rx="10" fill="none" stroke="#047857" stroke-width="2.2" filter="url(#pencil)"/>
-  <text x="20" y="134" font-size="15" font-weight="700" letter-spacing="1.5" fill="#4a4744">BI PLATFORMS</text>
-  <text x="20" y="168" font-size="24" font-weight="700" fill="#141414">Qlik · Power BI</text>
+  <text x="20" y="134" font-size="15" font-weight="700" letter-spacing="1.5" fill="#4a4744">WEB + MOBILE</text>
+  <text x="20" y="168" font-size="24" font-weight="700" fill="#141414">React · React Native</text>
   <g fill="none" stroke="#047857" stroke-linecap="round" filter="url(#pencil)">
     <path d="M20 180 c 16 -2, 34 -2, 52 -1" stroke-width="3.5"/>
     <path d="M22 182.5 c 18 -1.5, 32 -1, 44 -1.5" stroke-width="1.5" opacity=".55"/>

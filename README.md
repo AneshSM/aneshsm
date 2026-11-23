@@ -4,7 +4,7 @@
   <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="profile-assets/banner-mobile-dark.svg" />
   <source media="(max-width: 640px)" srcset="profile-assets/banner-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="profile-assets/banner-dark.svg" />
-  <img src="profile-assets/banner-light.svg" alt="Anesh Somanath Majalikar, Software Engineer, full stack (PERN). React to PostgreSQL in TypeScript, plus connectors for Qlik and Power BI." width="100%" />
+  <img src="profile-assets/banner-light.svg" alt="Anesh Somanath Majalikar, Software Engineer, full stack (PERN). React to PostgreSQL in TypeScript. New domain, built end to end." width="100%" />
 </picture>
 
 <br><br>
@@ -14,7 +14,7 @@
   <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="profile-assets/badges-stats-mobile-dark.svg" />
   <source media="(max-width: 640px)" srcset="profile-assets/badges-stats-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="profile-assets/badges-stats-dark.svg" />
-  <img src="profile-assets/badges-stats-light.svg" alt="Experience: 3+ years. Stack: PERN and TypeScript. BI platforms: Qlik and Power BI. AI-assisted: Claude Code and MCP." width="100%" />
+  <img src="profile-assets/badges-stats-light.svg" alt="Experience: 3+ years. Stack: PERN and TypeScript. Web and mobile: React and React Native. AI-assisted: Claude Code and MCP." width="100%" />
 </picture>
 </p>
 
@@ -81,7 +81,7 @@ Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I
   <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="profile-assets/badges-tools-mobile-dark.svg" />
   <source media="(max-width: 640px)" srcset="profile-assets/badges-tools-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="profile-assets/badges-tools-dark.svg" />
-  <img src="profile-assets/badges-tools-light.svg" alt="Playwright, Prettier, Claude Code" width="100%" />
+  <img src="profile-assets/badges-tools-light.svg" alt="Jest, Playwright, Prettier, Firebase, Claude Code" width="100%" />
 </picture>
 </p>
 
