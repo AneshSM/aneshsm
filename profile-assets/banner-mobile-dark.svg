@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="556" viewBox="0 0 600 556" role="img" aria-labelledby="t d">
   <title id="t">Anesh Somanath Majalikar</title>
-  <desc id="d">Software Engineer, full stack (PERN). React to PostgreSQL in TypeScript, plus connectors for Qlik and Power BI.</desc>
+  <desc id="d">Software Engineer, full stack (PERN). React to PostgreSQL in TypeScript. New domain, built end to end.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#1d1d1f"/>
@@ -50,8 +50,8 @@
   </g>
   <text x="32" y="104" class="sans" font-size="38" font-weight="800" fill="#f7f6f3">Anesh Somanath Majalikar</text>
   <text x="32" y="146" class="sans" font-size="24" font-weight="700" fill="#dedbd4">Software Engineer · Full Stack (PERN)</text>
-  <text x="32" y="188" class="sans" font-size="21" font-weight="600" fill="#b8b4ab">React to PostgreSQL in TypeScript, plus</text>
-  <text x="32" y="218" class="sans" font-size="21" font-weight="600" fill="#b8b4ab">connectors for Qlik and Power BI.</text>
+  <text x="32" y="188" class="sans" font-size="21" font-weight="600" fill="#b8b4ab">React to PostgreSQL in TypeScript.</text>
+  <text x="32" y="218" class="sans" font-size="21" font-weight="600" fill="#b8b4ab">New domain, built end to end.</text>
 
   <rect x="0" y="266" width="600" height="290" rx="18" fill="url(#bg)"/>
   <rect x="0" y="266" width="600" height="290" rx="18" filter="url(#grain)"/>
@@ -79,7 +79,7 @@
   <circle class="pulse" cx="1050" cy="150" r="11" fill="#e2dfd8"/>
   <circle cx="1050" cy="150" r="11" fill="#f7f6f3" stroke="#1f1f21" stroke-width="3"/>
 
-  <!-- five label sets cycle, 4s each: delivery, data path, versioning, journey, next -->
+  <!-- five label sets cycle, 4s each: delivery, web and mobile, versioning, journey, next -->
   <g class="hand" font-size="20" font-weight="700" fill="#bdb9b0">
     <g class="lbl l1">
       <text x="905" y="70">frontend</text>
@@ -88,10 +88,10 @@
       <text x="762" y="180">idea</text>
     </g>
     <g class="lbl l2">
-      <text x="905" y="70">REST APIs</text>
-      <text x="980" y="236">worker jobs</text>
-      <text x="1064" y="132">tested</text>
-      <text x="762" y="180">schema</text>
+      <text x="905" y="70">web</text>
+      <text x="980" y="236">mobile</text>
+      <text x="1064" y="132">shipped</text>
+      <text x="762" y="180">idea</text>
     </g>
     <g class="lbl l3">
       <text x="905" y="70">compare</text>
@@ -101,8 +101,8 @@
     </g>
     <g class="lbl l4">
       <text x="905" y="70">intern</text>
-      <text x="980" y="236">rebuild</text>
-      <text x="1064" y="132">associate</text>
+      <text x="980" y="236">associate</text>
+      <text x="1064" y="132">engineer</text>
       <text x="762" y="180">2023</text>
     </g>
     <g class="lbl l5">

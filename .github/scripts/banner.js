@@ -5,6 +5,8 @@
 const fs = require('fs');
 const path = require('path');
 const out = path.join(__dirname, '..', '..', 'profile-assets');
+// Patrick Hand (SIL OFL), a 7 KB woff2 subset, embedded so the labels look the same on every device.
+const font = fs.readFileSync(path.join(__dirname, 'banner-font.css'), 'utf8').trim();
 
 const palettes = {
   light: {
@@ -28,9 +30,9 @@ const palettes = {
 // [main line start, upper branch, lower branch, merge point]
 const sets = [
   ['idea', 'frontend', 'backend', 'shipped'],
-  ['schema', 'REST APIs', 'worker jobs', 'tested'],
+  ['idea', 'web', 'mobile', 'shipped'],
   ['commit', 'compare', 'merge', 'deploy'],
-  ['2023', 'intern', 'rebuild', 'associate'],
+  ['2023', 'intern', 'associate', 'engineer'],
   ['now', 'CI/CD', 'AI integration', 'next'],
 ];
 const pos = { upper: [905, 70], lower: [980, 236], merge: [1064, 132], start: [762, 180] };
@@ -59,8 +61,9 @@ const defs = (p) => `  <defs>
       <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
     <style>
+      ${font}
       .sans { font-family: 'Segoe UI', Ubuntu, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
-      .hand { font-family: 'Segoe Print', 'Bradley Hand', 'Comic Sans MS', 'Comic Neue', cursive; }
+      .hand { font-family: 'Patrick Hand Embed', 'Segoe Print', 'Bradley Hand', 'Comic Sans MS', 'Comic Neue', cursive; }
       .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
       @keyframes pulse { 0% { opacity: .45; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
       .lbl { opacity: 0; animation: cycle 20s linear infinite both; }
@@ -85,8 +88,8 @@ const intro = (p, x, y, s) => `  <!-- hand-drawn underline -->
   </g>
   <text x="${x}" y="${y + s.nameY}" class="sans" font-size="${s.name}" font-weight="800" fill="${p.name}">Anesh Somanath Majalikar</text>
   <text x="${x}" y="${y + s.roleY}" class="sans" font-size="${s.role}" font-weight="700" fill="${p.role}">Software Engineer · Full Stack (PERN)</text>
-  <text x="${x}" y="${y + s.tag1Y}" class="sans" font-size="${s.tag}" font-weight="600" fill="${p.tag}">React to PostgreSQL in TypeScript, plus</text>
-  <text x="${x}" y="${y + s.tag2Y}" class="sans" font-size="${s.tag}" font-weight="600" fill="${p.tag}">connectors for Qlik and Power BI.</text>`;
+  <text x="${x}" y="${y + s.tag1Y}" class="sans" font-size="${s.tag}" font-weight="600" fill="${p.tag}">React to PostgreSQL in TypeScript.</text>
+  <text x="${x}" y="${y + s.tag2Y}" class="sans" font-size="${s.tag}" font-weight="600" fill="${p.tag}">New domain, built end to end.</text>`;
 
 const lines = (p, dx, dy) => `
     <path d="M760 150 H1150" stroke="${p.base}" transform="translate(${dx} ${dy})"/>
@@ -118,7 +121,7 @@ const graph = (p) => {
   <circle class="pulse" cx="1050" cy="150" r="11" fill="${p.pulse}"/>
   <circle cx="1050" cy="150" r="11" fill="${p.dot}" stroke="${p.ring}" stroke-width="3"/>
 
-  <!-- five label sets cycle, 4s each: delivery, data path, versioning, journey, next -->
+  <!-- five label sets cycle, 4s each: delivery, web and mobile, versioning, journey, next -->
   <g class="hand" font-size="20" font-weight="700" fill="${p.label}">
 ${labels}
   </g>`;
@@ -126,7 +129,7 @@ ${labels}
 
 const head = (w, h) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="t d">
   <title id="t">Anesh Somanath Majalikar</title>
-  <desc id="d">Software Engineer, full stack (PERN). React to PostgreSQL in TypeScript, plus connectors for Qlik and Power BI.</desc>`;
+  <desc id="d">Software Engineer, full stack (PERN). React to PostgreSQL in TypeScript. New domain, built end to end.</desc>`;
 
 const desktop = (p) => `${head(1200, 300)}
 ${defs(p)}
