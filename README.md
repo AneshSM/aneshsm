@@ -24,10 +24,12 @@ Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I
 
 ## Skills
 
-- **Frontend**: React, forms, data fetching, virtualised lists
-- **Backend**: REST APIs, PostgreSQL schemas and migrations
+- **Frontend**: React and React Native, forms, data fetching, routing
+- **Mobile backend**: Firebase auth, Google sign-in, Firestore
+- **Backend**: REST APIs, PostgreSQL, Sequelize migrations and associations
 - **Integrations**: OAuth, SSO and JWT; Qlik and Power BI APIs
 - **Background jobs**: worker threads with retries and schedules
+- **Testing**: Jest and Supertest
 - **AI-assisted engineering**: Claude Code, MCP, Playwright checks
 
 ## Tech stack
@@ -90,6 +92,17 @@ Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I
 - **Intern, Gain Insights, Feb 2023**: rebuilt SenseOps Code Management as a React and Node.js app, which is still the product
 - **Before that**: [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native hospital app (college project)
 
+## Highlights
+
+- Version control for Qlik and Power BI apps: branches, compare, merge with approval, commit graph
+- Qlik Enterprise and Qlik Cloud: server setup, app clone, bulk repository creation
+- Power BI support: repositories from workspaces; compare, copy and deploy reports and semantic models
+- Environment cleanup: find unused apps, then quarantine, purge or restore them in background jobs
+- Regression testing: compare app versions to catch data and visual changes
+- Technical docs per app version; job notification mail
+- Security hardening and structured logging
+- Fixing and stabilising teammates' features; resolving merge conflicts across branches
+
 ## Approach
 
 - Client and server changes ship together
@@ -98,7 +111,7 @@ Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I
 
 ## Learning
 
-Docker and CI/CD · AWS · test suites from day one · RAG on open-source models
+Docker, Nginx and CI/CD · AWS · Next.js and serverless · Zustand · test suites from day one · RAG on open-source models
 
 ## Projects
 
