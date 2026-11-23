@@ -22,7 +22,7 @@
 
 Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I pick up a new domain fast and build end to end once I understand the requirements. Most recently: version control and integrations for Qlik Sense and Power BI. Off the keyboard, I sketch.
 
-## What I do
+## Skills
 
 - **Frontend**: React, forms, data fetching, virtualised lists
 - **Backend**: REST APIs, PostgreSQL schemas and migrations
@@ -32,7 +32,7 @@ Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I
 
 ## Tech stack
 
-**Languages and frontend**
+**Frontend**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/typescript-dark.svg" /><img src="profile-assets/icons/typescript-light.svg" alt="TypeScript" title="TypeScript" width="48" height="48" /></picture>&nbsp;
@@ -43,9 +43,7 @@ Hi, I'm Anesh, a full-stack engineer (React, Node.js, PostgreSQL, TypeScript). I
   <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/tailwindcss-dark.svg" /><img src="profile-assets/icons/tailwindcss-light.svg" alt="Tailwind CSS" title="Tailwind CSS" width="48" height="48" /></picture>
 </p>
 
-React Router, React Hook Form, TanStack Query, react-window
-
-**Backend and data**
+**Backend**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/nodedotjs-dark.svg" /><img src="profile-assets/icons/nodedotjs-light.svg" alt="Node.js" title="Node.js" width="48" height="48" /></picture>&nbsp;
@@ -53,8 +51,6 @@ React Router, React Hook Form, TanStack Query, react-window
   <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/postgresql-dark.svg" /><img src="profile-assets/icons/postgresql-light.svg" alt="PostgreSQL" title="PostgreSQL" width="48" height="48" /></picture>&nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/sequelize-dark.svg" /><img src="profile-assets/icons/sequelize-light.svg" alt="Sequelize" title="Sequelize" width="48" height="48" /></picture>
 </p>
-
-REST APIs, OAuth and SSO, WebSockets, worker threads
 
 **BI platforms**
 
@@ -67,9 +63,7 @@ REST APIs, OAuth and SSO, WebSockets, worker threads
 </picture>
 </p>
 
-Qlik Engine API (enigma.js), Qlik Cloud, Power BI REST, Power Query M
-
-**Tools and AI**
+**Tools**
 
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/icons/git-dark.svg" /><img src="profile-assets/icons/git-light.svg" alt="Git" title="Git" width="48" height="48" /></picture>&nbsp;
@@ -89,20 +83,20 @@ Qlik Engine API (enigma.js), Qlik Cloud, Power BI REST, Power Query M
 </picture>
 </p>
 
-## Journey
+## Experience
 
 - **Software Engineer, now**: I own the architecture, version control for BI apps, the Qlik and Power BI integrations, and the team's Claude Code setup
 - **Associate Engineer**: Qlik Enterprise and Qlik Cloud support; moved background jobs to worker threads
 - **Intern, Gain Insights, Feb 2023**: rebuilt SenseOps Code Management as a React and Node.js app, which is still the product
 - **Before that**: [AlvasNiraamaya](https://github.com/AneshSM/AlvasNiraamaya), a React Native hospital app (college project)
 
-## How I work
+## Approach
 
 - Client and server changes ship together
 - Decisions go in ADRs; commits follow Conventional Commits
 - AI output is a draft until it has tests, a browser check and a review
 
-## Learning next
+## Learning
 
 Docker and CI/CD · AWS · test suites from day one · RAG on open-source models
 
@@ -127,7 +121,7 @@ New projects are on the way. Most of my work so far is in private company repos.
 
 </details>
 
-## Get in touch
+## Contact
 
 **Ask me about** BI platform integrations, job pipelines, or Claude Code.
 
