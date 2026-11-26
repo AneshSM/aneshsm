@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-labelledby="t">
+  <title id="t">Portfolio</title>
+  <defs>
+    <filter id="pencil" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="pencil2" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="2" seed="11" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="#303034"/>
+  <rect x="3" y="2.5" width="43" height="43" rx="10" fill="none" stroke="#efede8" stroke-width="1.2" opacity=".45" filter="url(#pencil2)"/>
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="none" stroke="#efede8" stroke-width="2" filter="url(#pencil)"/>
+  <g fill="none" stroke="#efede8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#pencil)">
+    <rect x="11" y="13" width="26" height="22" rx="3"/>
+    <path d="M11 19.5h26"/>
+  </g>
+  <g fill="#efede8">
+    <circle cx="14.5" cy="16.3" r="1.1"/>
+    <circle cx="18" cy="16.3" r="1.1"/>
+  </g>
+</svg>
