@@ -137,6 +137,7 @@ New projects are on the way. Most of my work so far is in private company repos.
 **Ask me about** third-party API integrations, job pipelines, or Claude Code.
 
 <p>
+  <a href="https://aneshsm-portfolio.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-portfolio-dark.svg" /><img src="profile-assets/contact-portfolio-light.svg" alt="Portfolio" title="Portfolio" height="40" /></picture></a>&nbsp;
   <a href="https://linkedin.com/in/anesh-somanath-majalikar-13666b222"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-linkedin-dark.svg" /><img src="profile-assets/contact-linkedin-light.svg" alt="LinkedIn" title="LinkedIn" height="40" /></picture></a>&nbsp;
   <a href="https://www.instagram.com/arto.beginner"><picture><source media="(prefers-color-scheme: dark)" srcset="profile-assets/contact-instagram-dark.svg" /><img src="profile-assets/contact-instagram-light.svg" alt="Instagram art page" title="Instagram art page" height="40" /></picture></a>
 </p>
